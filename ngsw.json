@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1595367045909,
+  "timestamp": 1595371535693,
   "index": "/oyameyo-web/index.html",
   "assetGroups": [
     {
@@ -8,8 +8,8 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/oyameyo-web/16-es2015.da364ba35e10ed8bd2fc.js",
-        "/oyameyo-web/16-es5.da364ba35e10ed8bd2fc.js",
+        "/oyameyo-web/16-es2015.fe599e39e097e6965378.js",
+        "/oyameyo-web/16-es5.fe599e39e097e6965378.js",
         "/oyameyo-web/17-es2015.39a52a188d08716024d9.js",
         "/oyameyo-web/17-es5.39a52a188d08716024d9.js",
         "/oyameyo-web/18-es2015.dcd1e211f56f141689c8.js",
@@ -198,9 +198,9 @@
         "/oyameyo-web/polyfills-dom-es5.4bb9d991e2ad33f11c63.js",
         "/oyameyo-web/polyfills-es2015.eba6c667c0f82f5051d0.js",
         "/oyameyo-web/polyfills-es5.8e93e783cffb0c0e0afc.js",
-        "/oyameyo-web/runtime-es2015.1eb15691782ed4b33be1.js",
-        "/oyameyo-web/runtime-es5.1eb15691782ed4b33be1.js",
-        "/oyameyo-web/styles.4a7c84509d466acb69fc.css"
+        "/oyameyo-web/runtime-es2015.89b5e1a92e2122383d7a.js",
+        "/oyameyo-web/runtime-es5.89b5e1a92e2122383d7a.js",
+        "/oyameyo-web/styles.62ca0c073d774f7dd481.css"
       ],
       "patterns": []
     },
@@ -209,6 +209,7 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
+        "/oyameyo-web/assets/facebook.png",
         "/oyameyo-web/assets/icon/favicon.png",
         "/oyameyo-web/assets/icon/icon-512.png",
         "/oyameyo-web/assets/icons/icon-128x128.png",
@@ -220,20 +221,22 @@
         "/oyameyo-web/assets/icons/icon-72x72.png",
         "/oyameyo-web/assets/icons/icon-96x96.png",
         "/oyameyo-web/assets/icons/manifest.json",
+        "/oyameyo-web/assets/instagram.png",
         "/oyameyo-web/assets/man-worker.png",
         "/oyameyo-web/assets/man.png",
         "/oyameyo-web/assets/oyameyo_logo-sinfondo.png",
         "/oyameyo-web/assets/oyameyo_logo-sinfondo_(1).png",
         "/oyameyo-web/assets/shapes.svg",
-        "/oyameyo-web/assets/smoke.mp4"
+        "/oyameyo-web/assets/smoke.mp4",
+        "/oyameyo-web/assets/twitter.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/oyameyo-web/16-es2015.da364ba35e10ed8bd2fc.js": "bcec576f10d4f43d7471c48d0e81b32063393b6a",
-    "/oyameyo-web/16-es5.da364ba35e10ed8bd2fc.js": "b0cf2ebebe251e2f49ded046a3476234b5f51e33",
+    "/oyameyo-web/16-es2015.fe599e39e097e6965378.js": "a532aa206977c2e898ca7efeb9fd52c23b922439",
+    "/oyameyo-web/16-es5.fe599e39e097e6965378.js": "3ae88b5277ededd577841594a153d97f0d0676db",
     "/oyameyo-web/17-es2015.39a52a188d08716024d9.js": "9cbacfd83d458adcd67ef18c3d02416c1c6b6f9c",
     "/oyameyo-web/17-es5.39a52a188d08716024d9.js": "36503257fb1789f95670a2bc1f809155afc84bb4",
     "/oyameyo-web/18-es2015.dcd1e211f56f141689c8.js": "ed2933dcc48ef486c2c26167d275351ede5de9e2",
@@ -408,6 +411,7 @@
     "/oyameyo-web/95-es5.b2823cd412b4a71418d9.js": "01d4aca7427b0eaff81d913682f2a83a2e22d87a",
     "/oyameyo-web/96-es2015.a7d33dfa90200df98952.js": "ae5433036b0494be16d650464be3e5d2fd1ea3eb",
     "/oyameyo-web/96-es5.a7d33dfa90200df98952.js": "b8022f3a23e38855adf531b31112ba42043671e3",
+    "/oyameyo-web/assets/facebook.png": "ec1508899dd9a8d6b3e2766db228c40e850c6066",
     "/oyameyo-web/assets/icon/favicon.png": "c28881dcf00cd98a3babc119035bb6cff1828d24",
     "/oyameyo-web/assets/icon/icon-512.png": "2bcee0c3b718c86b2ecfeaf183585c63943ef953",
     "/oyameyo-web/assets/icons/icon-128x128.png": "adc9c506f3333d97d0be16f71b631031ee7683a1",
@@ -419,15 +423,17 @@
     "/oyameyo-web/assets/icons/icon-72x72.png": "66b7459a34ddc946dff922f8c5387e859fd5f2d0",
     "/oyameyo-web/assets/icons/icon-96x96.png": "433b74f25163b26bf80ea2cfdf09d22cb75180f2",
     "/oyameyo-web/assets/icons/manifest.json": "0bd2c8b82ca658fdbfd1ce6134325e4227b6fc84",
+    "/oyameyo-web/assets/instagram.png": "13215c02181e46552e3a7090262111033aee8f09",
     "/oyameyo-web/assets/man-worker.png": "162a807083c7916de1603956bfeeb08c9d4f585b",
     "/oyameyo-web/assets/man.png": "879a663749781d809fd6f15b4411c6694aba41b4",
     "/oyameyo-web/assets/oyameyo_logo-sinfondo.png": "b8247e153e2d8c9bdabb7f0afeca63f5371f2e7a",
     "/oyameyo-web/assets/oyameyo_logo-sinfondo_(1).png": "b8247e153e2d8c9bdabb7f0afeca63f5371f2e7a",
     "/oyameyo-web/assets/shapes.svg": "5413e95adabcb2cb639970051f55e0ddb64ace53",
     "/oyameyo-web/assets/smoke.mp4": "4ea6b28119cf6cf23e8f6f36554cae39e5db62ac",
+    "/oyameyo-web/assets/twitter.png": "1fae8f7e0e8932a83725e5105881470935c7af37",
     "/oyameyo-web/common-es2015.787fed6c88942b571d48.js": "2634c6f1e6055c8b0aa4f38c54faea50c26a352c",
     "/oyameyo-web/common-es5.787fed6c88942b571d48.js": "4f16208880f1e36208abbe684c332346fa3d5599",
-    "/oyameyo-web/index.html": "c65030ee05d2d17dd836db5d42ea9f0efadd6383",
+    "/oyameyo-web/index.html": "f481026d5f8f65125c2ca9c82641155fff0a70ee",
     "/oyameyo-web/main-es2015.a103698fed80bfe1eb7c.js": "3be3e312b182aa5d88d7cd9b2413ddac036a13f1",
     "/oyameyo-web/main-es5.a103698fed80bfe1eb7c.js": "099b6eeee6a680503a099488ece7266ccd68e22d",
     "/oyameyo-web/manifest.webmanifest": "50d28892a23cd592b099cde8bf0f08f9388c8c03",
@@ -439,9 +445,9 @@
     "/oyameyo-web/polyfills-dom-es5.4bb9d991e2ad33f11c63.js": "4d8a8072fa2be30bd1e0af3b5bf9fd74b85bc55d",
     "/oyameyo-web/polyfills-es2015.eba6c667c0f82f5051d0.js": "06890b8ad7d099069b6e73dc73f64cb685f7b1fd",
     "/oyameyo-web/polyfills-es5.8e93e783cffb0c0e0afc.js": "45b97c9c475b9b2178a4ae9fa05dc7e19fee8e5c",
-    "/oyameyo-web/runtime-es2015.1eb15691782ed4b33be1.js": "7008379c0ef611c4a7cc8a48140ac09e20142cba",
-    "/oyameyo-web/runtime-es5.1eb15691782ed4b33be1.js": "c4fde2cee4dd76035e33729c47b10bd73306a807",
-    "/oyameyo-web/styles.4a7c84509d466acb69fc.css": "3d59c4b8ba4eb1cad9c36628380d9fe8e1f0aed8"
+    "/oyameyo-web/runtime-es2015.89b5e1a92e2122383d7a.js": "fcb1b7053e2cabe5e4e7d4c36a3ea8f546ed23b1",
+    "/oyameyo-web/runtime-es5.89b5e1a92e2122383d7a.js": "25c282d29be1fb09cdd0e69bf71491dfc506a2ec",
+    "/oyameyo-web/styles.62ca0c073d774f7dd481.css": "708c8f91be323a3ebb2df04eb9f66a74a98f8481"
   },
   "navigationUrls": [
     {
