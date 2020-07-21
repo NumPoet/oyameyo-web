@@ -45,15 +45,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! ./index-e23c3ffd.js */
-    "./node_modules/@ionic/core/dist/esm/index-e23c3ffd.js");
+    var _index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! ./index-29df6f59.js */
+    "./node_modules/@ionic/core/dist/esm/index-29df6f59.js");
     /* harmony import */
 
 
-    var _ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! ./ionic-global-fbc9a2ac.js */
-    "./node_modules/@ionic/core/dist/esm/ionic-global-fbc9a2ac.js");
+    var _ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./ionic-global-08f4fb8a.js */
+    "./node_modules/@ionic/core/dist/esm/ionic-global-08f4fb8a.js");
     /* harmony import */
 
 
@@ -63,9 +63,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _animation_6064ebf7_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-    /*! ./animation-6064ebf7.js */
-    "./node_modules/@ionic/core/dist/esm/animation-6064ebf7.js");
+    var _animation_a635a2fc_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ./animation-a635a2fc.js */
+    "./node_modules/@ionic/core/dist/esm/animation-a635a2fc.js");
     /* harmony import */
 
 
@@ -75,9 +75,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _index_6f647ec8_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-    /*! ./index-6f647ec8.js */
-    "./node_modules/@ionic/core/dist/esm/index-6f647ec8.js");
+    var _gesture_controller_89173521_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! ./gesture-controller-89173521.js */
+    "./node_modules/@ionic/core/dist/esm/gesture-controller-89173521.js");
     /* harmony import */
 
 
@@ -87,15 +87,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _index_88d5bee7_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
-    /*! ./index-88d5bee7.js */
-    "./node_modules/@ionic/core/dist/esm/index-88d5bee7.js");
+    var _index_b93bd093_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    /*! ./index-b93bd093.js */
+    "./node_modules/@ionic/core/dist/esm/index-b93bd093.js");
     /* harmony import */
 
 
-    var _theme_c2dc54d9_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
-    /*! ./theme-c2dc54d9.js */
-    "./node_modules/@ionic/core/dist/esm/theme-c2dc54d9.js");
+    var _theme_3f0b0c04_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    /*! ./theme-3f0b0c04.js */
+    "./node_modules/@ionic/core/dist/esm/theme-3f0b0c04.js");
 
     var menuIosCss = ":host{--width:304px;--min-width:auto;--max-width:auto;--height:100%;--min-height:auto;--max-height:auto;--background:var(--ion-background-color, #fff);left:0;right:0;top:0;bottom:0;display:none;position:absolute;contain:strict}:host(.show-menu){display:block}.menu-inner{left:0;right:auto;top:0;bottom:0;-webkit-transform:translate3d(-9999px,  0,  0);transform:translate3d(-9999px,  0,  0);display:-ms-flexbox;display:flex;position:absolute;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:justify;justify-content:space-between;width:var(--width);min-width:var(--min-width);max-width:var(--max-width);height:var(--height);min-height:var(--min-height);max-height:var(--max-height);background:var(--background);contain:strict}[dir=rtl] .menu-inner,:host-context([dir=rtl]) .menu-inner{left:unset;right:unset;left:auto;right:0}[dir=rtl] .menu-inner,:host-context([dir=rtl]) .menu-inner{-webkit-transform:translate3d(calc(-1 * -9999px),  0,  0);transform:translate3d(calc(-1 * -9999px),  0,  0)}:host(.menu-side-start) .menu-inner{--ion-safe-area-right:0px;right:auto;left:0}:host(.menu-side-end) .menu-inner{--ion-safe-area-left:0px;right:0;left:auto;}ion-backdrop{display:none;opacity:0.01;z-index:-1}@media (max-width: 340px){.menu-inner{--width:264px}}:host(.menu-type-reveal){z-index:0}:host(.menu-type-reveal.show-menu) .menu-inner{-webkit-transform:translate3d(0,  0,  0);transform:translate3d(0,  0,  0)}:host(.menu-type-overlay){z-index:1000}:host(.menu-type-overlay) .show-backdrop{display:block;cursor:pointer}:host(.menu-pane-visible){width:var(--width);min-width:var(--min-width);max-width:var(--max-width)}:host(.menu-pane-visible) .menu-inner{left:0;right:0;width:auto;-webkit-transform:none !important;transform:none !important;-webkit-box-shadow:none !important;box-shadow:none !important}:host(.menu-pane-visible) ion-backdrop{display:hidden !important;}:host(.menu-type-push){z-index:1000}:host(.menu-type-push) .show-backdrop{display:block}";
     var menuMdCss = ":host{--width:304px;--min-width:auto;--max-width:auto;--height:100%;--min-height:auto;--max-height:auto;--background:var(--ion-background-color, #fff);left:0;right:0;top:0;bottom:0;display:none;position:absolute;contain:strict}:host(.show-menu){display:block}.menu-inner{left:0;right:auto;top:0;bottom:0;-webkit-transform:translate3d(-9999px,  0,  0);transform:translate3d(-9999px,  0,  0);display:-ms-flexbox;display:flex;position:absolute;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:justify;justify-content:space-between;width:var(--width);min-width:var(--min-width);max-width:var(--max-width);height:var(--height);min-height:var(--min-height);max-height:var(--max-height);background:var(--background);contain:strict}[dir=rtl] .menu-inner,:host-context([dir=rtl]) .menu-inner{left:unset;right:unset;left:auto;right:0}[dir=rtl] .menu-inner,:host-context([dir=rtl]) .menu-inner{-webkit-transform:translate3d(calc(-1 * -9999px),  0,  0);transform:translate3d(calc(-1 * -9999px),  0,  0)}:host(.menu-side-start) .menu-inner{--ion-safe-area-right:0px;right:auto;left:0}:host(.menu-side-end) .menu-inner{--ion-safe-area-left:0px;right:0;left:auto;}ion-backdrop{display:none;opacity:0.01;z-index:-1}@media (max-width: 340px){.menu-inner{--width:264px}}:host(.menu-type-reveal){z-index:0}:host(.menu-type-reveal.show-menu) .menu-inner{-webkit-transform:translate3d(0,  0,  0);transform:translate3d(0,  0,  0)}:host(.menu-type-overlay){z-index:1000}:host(.menu-type-overlay) .show-backdrop{display:block;cursor:pointer}:host(.menu-pane-visible){width:var(--width);min-width:var(--min-width);max-width:var(--max-width)}:host(.menu-pane-visible) .menu-inner{left:0;right:0;width:auto;-webkit-transform:none !important;transform:none !important;-webkit-box-shadow:none !important;box-shadow:none !important}:host(.menu-pane-visible) ion-backdrop{display:hidden !important;}:host(.menu-type-overlay) .menu-inner{-webkit-box-shadow:4px 0px 16px rgba(0, 0, 0, 0.18);box-shadow:4px 0px 16px rgba(0, 0, 0, 0.18)}";
@@ -103,14 +103,18 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var mdEasing = 'cubic-bezier(0.0,0.0,0.2,1)';
     var iosEasingReverse = 'cubic-bezier(1, 0, 0.68, 0.28)';
     var mdEasingReverse = 'cubic-bezier(0.4, 0, 0.6, 1)';
+    /**
+     * @part container - The container for the menu content.
+     * @part backdrop - The backdrop that appears over the main content when the menu is open.
+     */
 
     var Menu = /*#__PURE__*/function () {
       function Menu(hostRef) {
         _classCallCheck(this, Menu);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
         this.lastOnEnd = 0;
-        this.blocker = _index_6f647ec8_js__WEBPACK_IMPORTED_MODULE_5__["GESTURE_CONTROLLER"].createBlocker({
+        this.blocker = _gesture_controller_89173521_js__WEBPACK_IMPORTED_MODULE_5__["G"].createBlocker({
           disableScroll: true
         });
         this.isAnimating = false;
@@ -138,11 +142,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
          */
 
         this.maxEdgeStart = 50;
-        this.ionWillOpen = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionWillOpen", 7);
-        this.ionWillClose = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionWillClose", 7);
-        this.ionDidOpen = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionDidOpen", 7);
-        this.ionDidClose = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionDidClose", 7);
-        this.ionMenuChange = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionMenuChange", 7);
+        this.ionWillOpen = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionWillOpen", 7);
+        this.ionWillClose = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionWillClose", 7);
+        this.ionDidOpen = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionDidOpen", 7);
+        this.ionDidClose = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionDidClose", 7);
+        this.ionMenuChange = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionMenuChange", 7);
       }
 
       _createClass(Menu, [{
@@ -197,7 +201,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                 switch (_context.prev = _context.next) {
                   case 0:
                     if (this.type === undefined) {
-                      this.type = _ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["c"].get('menuType', 'overlay');
+                      this.type = _ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["c"].get('menuType', 'overlay');
                     }
 
                     el = this.el;
@@ -225,12 +229,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                     this.typeChanged(this.type, undefined);
                     this.sideChanged(); // register this menu with the app's menu controller
 
-                    _index_88d5bee7_js__WEBPACK_IMPORTED_MODULE_7__["m"]._register(this);
+                    _index_b93bd093_js__WEBPACK_IMPORTED_MODULE_7__["m"]._register(this);
 
                     _context.next = 15;
                     return Promise.resolve().then(__webpack_require__.bind(null,
-                    /*! ./index-6f647ec8.js */
-                    "./node_modules/@ionic/core/dist/esm/index-6f647ec8.js"));
+                    /*! ./index-eea61379.js */
+                    "./node_modules/@ionic/core/dist/esm/index-eea61379.js"));
 
                   case 15:
                     this.gesture = _context.sent.createGesture({
@@ -304,7 +308,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function disconnectedCallback() {
           this.blocker.destroy();
 
-          _index_88d5bee7_js__WEBPACK_IMPORTED_MODULE_7__["m"]._unregister(this);
+          _index_b93bd093_js__WEBPACK_IMPORTED_MODULE_7__["m"]._unregister(this);
 
           if (this.animation) {
             this.animation.destroy();
@@ -400,7 +404,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         key: "setOpen",
         value: function setOpen(shouldOpen) {
           var animated = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
-          return _index_88d5bee7_js__WEBPACK_IMPORTED_MODULE_7__["m"]._setOpen(this, shouldOpen, animated);
+          return _index_b93bd093_js__WEBPACK_IMPORTED_MODULE_7__["m"]._setOpen(this, shouldOpen, animated);
         }
       }, {
         key: "_setOpen",
@@ -478,12 +482,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
                     _context4.next = 7;
-                    return _index_88d5bee7_js__WEBPACK_IMPORTED_MODULE_7__["m"]._createAnimation(this.type, this);
+                    return _index_b93bd093_js__WEBPACK_IMPORTED_MODULE_7__["m"]._createAnimation(this.type, this);
 
                   case 7:
                     this.animation = _context4.sent;
 
-                    if (!_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["c"].getBoolean('animated', true)) {
+                    if (!_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["c"].getBoolean('animated', true)) {
                       this.animation.duration(0);
                     }
 
@@ -513,7 +517,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                 switch (_context5.prev = _context5.next) {
                   case 0:
                     isReversed = !shouldOpen;
-                    mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+                    mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
                     easing = mode === 'ios' ? iosEasing : mdEasing;
                     easingReverse = mode === 'ios' ? iosEasingReverse : mdEasingReverse;
                     ani = this.animation.direction(isReversed ? 'reverse' : 'normal').easing(isReversed ? easingReverse : easing).onFinish(function () {
@@ -575,7 +579,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           if (this._isOpen) {
             return true; // TODO error
-          } else if (_index_88d5bee7_js__WEBPACK_IMPORTED_MODULE_7__["m"]._getOpenSync()) {
+          } else if (_index_b93bd093_js__WEBPACK_IMPORTED_MODULE_7__["m"]._getOpenSync()) {
             return false;
           }
 
@@ -744,7 +748,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }
 
           if (!this.disabled) {
-            _index_88d5bee7_js__WEBPACK_IMPORTED_MODULE_7__["m"]._setActiveMenu(this);
+            _index_b93bd093_js__WEBPACK_IMPORTED_MODULE_7__["m"]._setActiveMenu(this);
           }
 
           Object(_helpers_5c745fbd_js__WEBPACK_IMPORTED_MODULE_2__["b"])(!this.isAnimating, 'can not be animating');
@@ -770,17 +774,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               type = this.type,
               disabled = this.disabled,
               isPaneVisible = this.isPaneVisible;
-          var mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
+          var mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
             role: "navigation",
             "class": (_class = {}, _defineProperty(_class, mode, true), _defineProperty(_class, "menu-type-".concat(type), true), _defineProperty(_class, 'menu-enabled', !disabled), _defineProperty(_class, 'menu-side-end', isEndSide), _defineProperty(_class, 'menu-side-start', !isEndSide), _defineProperty(_class, 'menu-pane-visible', isPaneVisible), _class)
-          }, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
+          }, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
             "class": "menu-inner",
             part: "container",
             ref: function ref(el) {
               return _this3.menuInnerEl = el;
             }
-          }, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)), Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-backdrop", {
+          }, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)), Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-backdrop", {
             ref: function ref(el) {
               return _this3.backdropEl = el;
             },
@@ -793,7 +797,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "el",
         get: function get() {
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
         }
       }], [{
         key: "watchers",
@@ -841,7 +845,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             switch (_context6.prev = _context6.next) {
               case 0:
                 _context6.next = 2;
-                return _index_88d5bee7_js__WEBPACK_IMPORTED_MODULE_7__["m"].get(menu);
+                return _index_b93bd093_js__WEBPACK_IMPORTED_MODULE_7__["m"].get(menu);
 
               case 2:
                 menuEl = _context6.sent;
@@ -876,6 +880,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var menuButtonIosCss = ":host{--background:transparent;--color-focused:currentColor;--border-radius:initial;--padding-top:0;--padding-bottom:0;color:var(--color);text-align:center;text-decoration:none;text-overflow:ellipsis;text-transform:none;white-space:nowrap;-webkit-font-kerning:none;font-kerning:none}.button-native{border-radius:var(--border-radius);font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;text-decoration:inherit;text-indent:inherit;text-overflow:inherit;text-transform:inherit;text-align:inherit;white-space:inherit;color:inherit;margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;padding-left:var(--padding-start);padding-right:var(--padding-end);padding-top:var(--padding-top);padding-bottom:var(--padding-bottom);-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:-ms-flexbox;display:flex;position:relative;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-ms-flex-negative:0;flex-shrink:0;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;width:100%;height:100%;border:0;outline:none;background:var(--background);line-height:1;cursor:pointer;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;z-index:0;-webkit-appearance:none;-moz-appearance:none;appearance:none}@supports ((-webkit-margin-start: 0) or (margin-inline-start: 0)) or (-webkit-margin-start: 0){.button-native{padding-left:unset;padding-right:unset;-webkit-padding-start:var(--padding-start);padding-inline-start:var(--padding-start);-webkit-padding-end:var(--padding-end);padding-inline-end:var(--padding-end)}}.button-inner{display:-ms-flexbox;display:flex;position:relative;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-ms-flex-negative:0;flex-shrink:0;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;width:100%;height:100%;z-index:1}ion-icon{margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;pointer-events:none}:host(.menu-button-hidden){display:none}:host(.menu-button-disabled){cursor:default;opacity:0.5;pointer-events:none}:host(.ion-focused) .button-native{color:var(--color-focused)}:host(.ion-focused) .button-native::after{background:var(--background-focused);opacity:var(--background-focused-opacity)}.button-native::after{left:0;right:0;top:0;bottom:0;position:absolute;content:\"\";opacity:0}@media (any-hover: hover){:host(:hover) .button-native{color:var(--color-hover)}:host(:hover) .button-native::after{background:var(--background-hover);opacity:var(--background-hover-opacity, 0)}}:host(.ion-color) .button-native{color:var(--ion-color-base)}:host(.in-toolbar:not(.in-toolbar-color)){color:var(--ion-toolbar-color, var(--color))}:host{--background-focused:currentColor;--background-focused-opacity:.1;--border-radius:4px;--color:var(--ion-color-primary, #3880ff);--padding-start:5px;--padding-end:5px;height:32px;font-size:31px}:host(.ion-activated){opacity:0.4}@media (any-hover: hover){:host(:hover){opacity:0.6}}";
     var menuButtonMdCss = ":host{--background:transparent;--color-focused:currentColor;--border-radius:initial;--padding-top:0;--padding-bottom:0;color:var(--color);text-align:center;text-decoration:none;text-overflow:ellipsis;text-transform:none;white-space:nowrap;-webkit-font-kerning:none;font-kerning:none}.button-native{border-radius:var(--border-radius);font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;text-decoration:inherit;text-indent:inherit;text-overflow:inherit;text-transform:inherit;text-align:inherit;white-space:inherit;color:inherit;margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;padding-left:var(--padding-start);padding-right:var(--padding-end);padding-top:var(--padding-top);padding-bottom:var(--padding-bottom);-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:-ms-flexbox;display:flex;position:relative;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-ms-flex-negative:0;flex-shrink:0;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;width:100%;height:100%;border:0;outline:none;background:var(--background);line-height:1;cursor:pointer;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;z-index:0;-webkit-appearance:none;-moz-appearance:none;appearance:none}@supports ((-webkit-margin-start: 0) or (margin-inline-start: 0)) or (-webkit-margin-start: 0){.button-native{padding-left:unset;padding-right:unset;-webkit-padding-start:var(--padding-start);padding-inline-start:var(--padding-start);-webkit-padding-end:var(--padding-end);padding-inline-end:var(--padding-end)}}.button-inner{display:-ms-flexbox;display:flex;position:relative;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-ms-flex-negative:0;flex-shrink:0;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;width:100%;height:100%;z-index:1}ion-icon{margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;pointer-events:none}:host(.menu-button-hidden){display:none}:host(.menu-button-disabled){cursor:default;opacity:0.5;pointer-events:none}:host(.ion-focused) .button-native{color:var(--color-focused)}:host(.ion-focused) .button-native::after{background:var(--background-focused);opacity:var(--background-focused-opacity)}.button-native::after{left:0;right:0;top:0;bottom:0;position:absolute;content:\"\";opacity:0}@media (any-hover: hover){:host(:hover) .button-native{color:var(--color-hover)}:host(:hover) .button-native::after{background:var(--background-hover);opacity:var(--background-hover-opacity, 0)}}:host(.ion-color) .button-native{color:var(--ion-color-base)}:host(.in-toolbar:not(.in-toolbar-color)){color:var(--ion-toolbar-color, var(--color))}:host{--background-focused:currentColor;--background-focused-opacity:.12;--background-hover:currentColor;--background-hover-opacity:.04;--border-radius:50%;--color:initial;--padding-start:8px;--padding-end:8px;width:48px;height:48px;font-size:24px}:host(.ion-color.ion-focused)::after{background:var(--ion-color-base)}@media (any-hover: hover){:host(.ion-color:hover) .button-native::after{background:var(--ion-color-base)}}";
+    /**
+     * @virtualProp {"ios" | "md"} mode - The mode determines which platform styles to use.
+     *
+     * @part native - The native HTML button element that wraps all child elements.
+     * @part icon - The menu button icon (uses ion-icon).
+     */
 
     var MenuButton = /*#__PURE__*/function () {
       function MenuButton(hostRef) {
@@ -883,7 +893,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _classCallCheck(this, MenuButton);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
         this.visible = false;
         /**
          * If `true`, the user cannot interact with the menu button.
@@ -905,7 +915,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             while (1) {
               switch (_context7.prev = _context7.next) {
                 case 0:
-                  return _context7.abrupt("return", _index_88d5bee7_js__WEBPACK_IMPORTED_MODULE_7__["m"].toggle(_this4.menu));
+                  return _context7.abrupt("return", _index_b93bd093_js__WEBPACK_IMPORTED_MODULE_7__["m"].toggle(_this4.menu));
 
                 case 1:
                 case "end":
@@ -954,44 +964,48 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function render() {
           var color = this.color,
               disabled = this.disabled;
-          var mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+          var mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
 
-          var menuIcon = _ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["c"].get('menuIcon', mode === 'ios' ? 'menu-outline' : 'menu-sharp');
+          var menuIcon = _ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["c"].get('menuIcon', mode === 'ios' ? 'menu-outline' : 'menu-sharp');
 
           var hidden = this.autoHide && !this.visible;
           var attrs = {
             type: this.type
           };
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
             onClick: this.onClick,
             "aria-disabled": disabled ? 'true' : null,
             "aria-hidden": hidden ? 'true' : null,
-            "class": Object.assign(Object.assign(_defineProperty({}, mode, true), Object(_theme_c2dc54d9_js__WEBPACK_IMPORTED_MODULE_8__["c"])(color)), {
+            "class": Object.assign(Object.assign(_defineProperty({}, mode, true), Object(_theme_3f0b0c04_js__WEBPACK_IMPORTED_MODULE_8__["c"])(color)), {
               'button': true,
               'menu-button-hidden': hidden,
               'menu-button-disabled': disabled,
-              'in-toolbar': Object(_theme_c2dc54d9_js__WEBPACK_IMPORTED_MODULE_8__["h"])('ion-toolbar', this.el),
-              'in-toolbar-color': Object(_theme_c2dc54d9_js__WEBPACK_IMPORTED_MODULE_8__["h"])('ion-toolbar[color]', this.el),
+              'in-toolbar': Object(_theme_3f0b0c04_js__WEBPACK_IMPORTED_MODULE_8__["h"])('ion-toolbar', this.el),
+              'in-toolbar-color': Object(_theme_3f0b0c04_js__WEBPACK_IMPORTED_MODULE_8__["h"])('ion-toolbar[color]', this.el),
               'ion-activatable': true,
               'ion-focusable': true
             })
-          }, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("button", Object.assign({}, attrs, {
+          }, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("button", Object.assign({}, attrs, {
             disabled: disabled,
-            "class": "button-native"
-          }), Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("span", {
+            "class": "button-native",
+            part: "native",
+            "aria-label": "menu"
+          }), Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("span", {
             "class": "button-inner"
-          }, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-icon", {
+          }, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-icon", {
+            part: "icon",
             icon: menuIcon,
             mode: mode,
-            lazy: false
-          }))), mode === 'md' && Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-ripple-effect", {
+            lazy: false,
+            "aria-hidden": "true"
+          }))), mode === 'md' && Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-ripple-effect", {
             type: "unbounded"
           })));
         }
       }, {
         key: "el",
         get: function get() {
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
         }
       }]);
 
@@ -1013,7 +1027,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _classCallCheck(this, MenuToggle);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
         this.visible = false;
         /**
          * Automatically hides the content when the corresponding menu is not active.
@@ -1025,7 +1039,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.autoHide = true;
 
         this.onClick = function () {
-          return _index_88d5bee7_js__WEBPACK_IMPORTED_MODULE_7__["m"].toggle(_this5.menu);
+          return _index_b93bd093_js__WEBPACK_IMPORTED_MODULE_7__["m"].toggle(_this5.menu);
         };
       }
 
@@ -1067,13 +1081,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function render() {
           var _class2;
 
-          var mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+          var mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
           var hidden = this.autoHide && !this.visible;
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
             onClick: this.onClick,
             "aria-hidden": hidden ? 'true' : null,
             "class": (_class2 = {}, _defineProperty(_class2, mode, true), _defineProperty(_class2, 'menu-toggle-hidden', hidden), _class2)
-          }, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null));
+          }, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null));
         }
       }]);
 

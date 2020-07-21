@@ -65,15 +65,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! ./index-e23c3ffd.js */
-    "./node_modules/@ionic/core/dist/esm/index-e23c3ffd.js");
+    var _index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! ./index-29df6f59.js */
+    "./node_modules/@ionic/core/dist/esm/index-29df6f59.js");
     /* harmony import */
 
 
-    var _ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! ./ionic-global-fbc9a2ac.js */
-    "./node_modules/@ionic/core/dist/esm/ionic-global-fbc9a2ac.js");
+    var _ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./ionic-global-08f4fb8a.js */
+    "./node_modules/@ionic/core/dist/esm/ionic-global-08f4fb8a.js");
     /* harmony import */
 
 
@@ -83,15 +83,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _theme_c2dc54d9_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-    /*! ./theme-c2dc54d9.js */
-    "./node_modules/@ionic/core/dist/esm/theme-c2dc54d9.js");
+    var _theme_3f0b0c04_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ./theme-3f0b0c04.js */
+    "./node_modules/@ionic/core/dist/esm/theme-3f0b0c04.js");
 
     var Route = /*#__PURE__*/function () {
       function Route(hostRef) {
         _classCallCheck(this, Route);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
         /**
          * Relative path that needs to match in order for this route to apply.
          *
@@ -100,7 +100,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
          */
 
         this.url = '';
-        this.ionRouteDataChanged = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionRouteDataChanged", 7);
+        this.ionRouteDataChanged = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionRouteDataChanged", 7);
       }
 
       _createClass(Route, [{
@@ -164,8 +164,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       function RouteRedirect(hostRef) {
         _classCallCheck(this, RouteRedirect);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
-        this.ionRouteRedirectChanged = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionRouteRedirectChanged", 7);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        this.ionRouteRedirectChanged = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionRouteRedirectChanged", 7);
       }
 
       _createClass(RouteRedirect, [{
@@ -375,6 +375,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _writeNavState = /*#__PURE__*/function () {
       var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(root, chain, direction, index) {
         var changed,
+            animation,
             outlet,
             route,
             result,
@@ -384,27 +385,28 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             switch (_context.prev = _context.next) {
               case 0:
                 changed = _args.length > 4 && _args[4] !== undefined ? _args[4] : false;
-                _context.prev = 1;
+                animation = _args.length > 5 ? _args[5] : undefined;
+                _context.prev = 2;
                 // find next navigation outlet in the DOM
                 outlet = searchNavNode(root); // make sure we can continue interacting the DOM, otherwise abort
 
                 if (!(index >= chain.length || !outlet)) {
-                  _context.next = 5;
+                  _context.next = 6;
                   break;
                 }
 
                 return _context.abrupt("return", changed);
 
-              case 5:
-                _context.next = 7;
+              case 6:
+                _context.next = 8;
                 return outlet.componentOnReady();
 
-              case 7:
+              case 8:
                 route = chain[index];
-                _context.next = 10;
-                return outlet.setRouteId(route.id, route.params, direction);
+                _context.next = 11;
+                return outlet.setRouteId(route.id, route.params, direction, animation);
 
-              case 10:
+              case 11:
                 result = _context.sent;
 
                 // if the outlet changed the page, reset navigation to neutral (no direction)
@@ -415,35 +417,35 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                 } // recursively set nested outlets
 
 
-                _context.next = 14;
-                return _writeNavState(result.element, chain, direction, index + 1, changed);
+                _context.next = 15;
+                return _writeNavState(result.element, chain, direction, index + 1, changed, animation);
 
-              case 14:
+              case 15:
                 changed = _context.sent;
 
                 if (!result.markVisible) {
-                  _context.next = 18;
+                  _context.next = 19;
                   break;
                 }
 
-                _context.next = 18;
+                _context.next = 19;
                 return result.markVisible();
 
-              case 18:
+              case 19:
                 return _context.abrupt("return", changed);
 
-              case 21:
-                _context.prev = 21;
-                _context.t0 = _context["catch"](1);
+              case 22:
+                _context.prev = 22;
+                _context.t0 = _context["catch"](2);
                 console.error(_context.t0);
                 return _context.abrupt("return", false);
 
-              case 25:
+              case 26:
               case "end":
                 return _context.stop();
             }
           }
-        }, _callee, null, [[1, 21]]);
+        }, _callee, null, [[2, 22]]);
       }));
 
       return function writeNavState(_x, _x2, _x3, _x4) {
@@ -900,7 +902,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       function Router(hostRef) {
         _classCallCheck(this, Router);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
         this.previousPath = null;
         this.busy = false;
         this.state = 0;
@@ -928,8 +930,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
          */
 
         this.useHash = true;
-        this.ionRouteWillChange = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionRouteWillChange", 7);
-        this.ionRouteDidChange = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionRouteDidChange", 7);
+        this.ionRouteWillChange = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionRouteWillChange", 7);
+        this.ionRouteDidChange = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionRouteDidChange", 7);
       }
 
       _createClass(Router, [{
@@ -999,6 +1001,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         key: "push",
         value: function push(url) {
           var direction = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'forward';
+          var animation = arguments.length > 2 ? arguments[2] : undefined;
 
           if (url.startsWith('.')) {
             url = new URL(url, window.location.href).pathname;
@@ -1008,7 +1011,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           var path = parsePath(url);
           var queryString = url.split('?')[1];
           this.setPath(path, direction, queryString);
-          return this.writeNavStateRoot(path, direction);
+          return this.writeNavStateRoot(path, direction, animation);
         }
         /**
          * Go back to previous page in the window.history.
@@ -1152,7 +1155,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           var lastState = this.lastState;
           this.lastState = state;
 
-          if (state > lastState) {
+          if (state > lastState || state >= lastState && lastState > 0) {
             return ROUTER_INTENT_FORWARD;
           } else if (state < lastState) {
             return ROUTER_INTENT_BACK;
@@ -1163,7 +1166,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "writeNavStateRoot",
         value: function () {
-          var _writeNavStateRoot = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee6(path, direction) {
+          var _writeNavStateRoot = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee6(path, direction, animation) {
             var redirects, redirect, redirectFrom, routes, chain;
             return regeneratorRuntime.wrap(function _callee6$(_context6) {
               while (1) {
@@ -1202,7 +1205,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                     return _context6.abrupt("return", false);
 
                   case 12:
-                    return _context6.abrupt("return", this.safeWriteNavState(document.body, chain, direction, path, redirectFrom));
+                    return _context6.abrupt("return", this.safeWriteNavState(document.body, chain, direction, path, redirectFrom, 0, animation));
 
                   case 13:
                   case "end":
@@ -1212,7 +1215,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             }, _callee6, this);
           }));
 
-          function writeNavStateRoot(_x7, _x8) {
+          function writeNavStateRoot(_x7, _x8, _x9) {
             return _writeNavStateRoot.apply(this, arguments);
           }
 
@@ -1223,6 +1226,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function () {
           var _safeWriteNavState = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee7(node, chain, direction, path, redirectFrom) {
             var index,
+                animation,
                 unlock,
                 changed,
                 _args7 = arguments;
@@ -1231,39 +1235,40 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                 switch (_context7.prev = _context7.next) {
                   case 0:
                     index = _args7.length > 5 && _args7[5] !== undefined ? _args7[5] : 0;
-                    _context7.next = 3;
+                    animation = _args7.length > 6 ? _args7[6] : undefined;
+                    _context7.next = 4;
                     return this.lock();
 
-                  case 3:
+                  case 4:
                     unlock = _context7.sent;
                     changed = false;
-                    _context7.prev = 5;
-                    _context7.next = 8;
-                    return this.writeNavState(node, chain, direction, path, redirectFrom, index);
+                    _context7.prev = 6;
+                    _context7.next = 9;
+                    return this.writeNavState(node, chain, direction, path, redirectFrom, index, animation);
 
-                  case 8:
+                  case 9:
                     changed = _context7.sent;
-                    _context7.next = 14;
+                    _context7.next = 15;
                     break;
 
-                  case 11:
-                    _context7.prev = 11;
-                    _context7.t0 = _context7["catch"](5);
+                  case 12:
+                    _context7.prev = 12;
+                    _context7.t0 = _context7["catch"](6);
                     console.error(_context7.t0);
 
-                  case 14:
+                  case 15:
                     unlock();
                     return _context7.abrupt("return", changed);
 
-                  case 16:
+                  case 17:
                   case "end":
                     return _context7.stop();
                 }
               }
-            }, _callee7, this, [[5, 11]]);
+            }, _callee7, this, [[6, 12]]);
           }));
 
-          function safeWriteNavState(_x9, _x10, _x11, _x12, _x13) {
+          function safeWriteNavState(_x10, _x11, _x12, _x13, _x14) {
             return _safeWriteNavState.apply(this, arguments);
           }
 
@@ -1313,6 +1318,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function () {
           var _writeNavState2 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee9(node, chain, direction, path, redirectFrom) {
             var index,
+                animation,
                 routeEvent,
                 changed,
                 _args9 = arguments;
@@ -1321,16 +1327,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                 switch (_context9.prev = _context9.next) {
                   case 0:
                     index = _args9.length > 5 && _args9[5] !== undefined ? _args9[5] : 0;
+                    animation = _args9.length > 6 ? _args9[6] : undefined;
 
                     if (!this.busy) {
-                      _context9.next = 4;
+                      _context9.next = 5;
                       break;
                     }
 
                     console.warn('[ion-router] router is busy, transition was cancelled');
                     return _context9.abrupt("return", false);
 
-                  case 4:
+                  case 5:
                     this.busy = true; // generate route event and emit will change
 
                     routeEvent = this.routeChangeEvent(path, redirectFrom);
@@ -1339,10 +1346,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                       this.ionRouteWillChange.emit(routeEvent);
                     }
 
-                    _context9.next = 9;
-                    return _writeNavState(node, chain, direction, index);
+                    _context9.next = 10;
+                    return _writeNavState(node, chain, direction, index, false, animation);
 
-                  case 9:
+                  case 10:
                     changed = _context9.sent;
                     this.busy = false;
 
@@ -1357,7 +1364,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
                     return _context9.abrupt("return", changed);
 
-                  case 14:
+                  case 15:
                   case "end":
                     return _context9.stop();
                 }
@@ -1365,7 +1372,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             }, _callee9, this);
           }));
 
-          function writeNavState(_x14, _x15, _x16, _x17, _x18) {
+          function writeNavState(_x15, _x16, _x17, _x18, _x19) {
             return _writeNavState2.apply(this, arguments);
           }
 
@@ -1403,7 +1410,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "el",
         get: function get() {
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
         }
       }]);
 
@@ -1418,7 +1425,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _classCallCheck(this, RouterLink);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
         /**
          * When using a router, it specifies the transition direction when navigating to
          * another page using `href`.
@@ -1427,7 +1434,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.routerDirection = 'forward';
 
         this.onClick = function (ev) {
-          Object(_theme_c2dc54d9_js__WEBPACK_IMPORTED_MODULE_3__["o"])(_this2.href, ev, _this2.routerDirection);
+          Object(_theme_3f0b0c04_js__WEBPACK_IMPORTED_MODULE_3__["o"])(_this2.href, ev, _this2.routerDirection, _this2.routerAnimation);
         };
       }
 
@@ -1436,16 +1443,16 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function render() {
           var _Object$assign;
 
-          var mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+          var mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
           var attrs = {
             href: this.href,
             rel: this.rel,
             target: this.target
           };
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
             onClick: this.onClick,
-            "class": Object.assign(Object.assign({}, Object(_theme_c2dc54d9_js__WEBPACK_IMPORTED_MODULE_3__["c"])(this.color)), (_Object$assign = {}, _defineProperty(_Object$assign, mode, true), _defineProperty(_Object$assign, 'ion-activatable', true), _Object$assign))
-          }, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("a", Object.assign({}, attrs), Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)));
+            "class": Object.assign(Object.assign({}, Object(_theme_3f0b0c04_js__WEBPACK_IMPORTED_MODULE_3__["c"])(this.color)), (_Object$assign = {}, _defineProperty(_Object$assign, mode, true), _defineProperty(_Object$assign, 'ion-activatable', true), _Object$assign))
+          }, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("a", Object.assign({}, attrs), Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)));
         }
       }]);
 

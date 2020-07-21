@@ -39,15 +39,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! ./index-e23c3ffd.js */
-    "./node_modules/@ionic/core/dist/esm/index-e23c3ffd.js");
+    var _index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! ./index-29df6f59.js */
+    "./node_modules/@ionic/core/dist/esm/index-29df6f59.js");
     /* harmony import */
 
 
-    var _ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! ./ionic-global-fbc9a2ac.js */
-    "./node_modules/@ionic/core/dist/esm/ionic-global-fbc9a2ac.js");
+    var _ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./ionic-global-08f4fb8a.js */
+    "./node_modules/@ionic/core/dist/esm/ionic-global-08f4fb8a.js");
     /* harmony import */
 
 
@@ -63,7 +63,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _classCallCheck(this, InfiniteScroll);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
         this.thrPx = 0;
         this.thrPc = 0;
         this.didFire = false;
@@ -134,7 +134,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           return 4;
         };
 
-        this.ionInfinite = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionInfinite", 7);
+        this.ionInfinite = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionInfinite", 7);
       }
 
       _createClass(InfiniteScroll, [{
@@ -193,7 +193,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                     this.disabledChanged();
 
                     if (this.position === 'top') {
-                      Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["w"])(function () {
+                      Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["w"])(function () {
                         if (_this2.scrollEl) {
                           _this2.scrollEl.scrollTop = _this2.scrollEl.scrollHeight - _this2.scrollEl.clientHeight;
                         }
@@ -280,14 +280,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                       prev = scrollEl.scrollHeight - scrollEl.scrollTop; // ******** DOM READ ****************
 
                       requestAnimationFrame(function () {
-                        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["f"])(function () {
+                        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["d"])(function () {
                           // UI has updated, save the new content dimensions
                           var scrollHeight = scrollEl.scrollHeight; // New content was added on top, so the scroll position should be changed immediately to prevent it from jumping around
 
                           var newScrollTop = scrollHeight - prev; // ******** DOM WRITE ****************
 
                           requestAnimationFrame(function () {
-                            Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["w"])(function () {
+                            Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["w"])(function () {
                               scrollEl.scrollTop = newScrollTop;
                               _this3.isBusy = false;
                             });
@@ -331,16 +331,16 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function render() {
           var _class;
 
-          var mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+          var mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
           var disabled = this.disabled;
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
             "class": (_class = {}, _defineProperty(_class, mode, true), _defineProperty(_class, 'infinite-scroll-loading', this.isLoading), _defineProperty(_class, 'infinite-scroll-enabled', !disabled), _class)
           });
         }
       }, {
         key: "el",
         get: function get() {
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
         }
       }], [{
         key: "watchers",
@@ -363,15 +363,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       function InfiniteScrollContent(hostRef) {
         _classCallCheck(this, InfiniteScrollContent);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
       }
 
       _createClass(InfiniteScrollContent, [{
         key: "componentDidLoad",
         value: function componentDidLoad() {
           if (this.loadingSpinner === undefined) {
-            var mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
-            this.loadingSpinner = _ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["c"].get('infiniteLoadingSpinner', _ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["c"].get('spinner', mode === 'ios' ? 'lines' : 'crescent'));
+            var mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+            this.loadingSpinner = _ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["c"].get('infiniteLoadingSpinner', _ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["c"].get('spinner', mode === 'ios' ? 'lines' : 'crescent'));
           }
         }
       }, {
@@ -379,16 +379,16 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function render() {
           var _class2;
 
-          var mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
+          var mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
             "class": (_class2 = {}, _defineProperty(_class2, mode, true), _defineProperty(_class2, "infinite-scroll-content-".concat(mode), true), _class2)
-          }, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
+          }, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
             "class": "infinite-loading"
-          }, this.loadingSpinner && Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
+          }, this.loadingSpinner && Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
             "class": "infinite-loading-spinner"
-          }, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-spinner", {
+          }, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-spinner", {
             name: this.loadingSpinner
-          })), this.loadingText && Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
+          })), this.loadingText && Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
             "class": "infinite-loading-text",
             innerHTML: Object(_index_79d74e0b_js__WEBPACK_IMPORTED_MODULE_2__["s"])(this.loadingText)
           })));

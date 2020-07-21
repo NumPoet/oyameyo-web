@@ -2,17 +2,17 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["input-shims-77712174-js"], {
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["input-shims-d4609e0d-js"], {
   /***/
-  "./node_modules/@ionic/core/dist/esm/input-shims-77712174.js":
+  "./node_modules/@ionic/core/dist/esm/input-shims-d4609e0d.js":
   /*!*******************************************************************!*\
-    !*** ./node_modules/@ionic/core/dist/esm/input-shims-77712174.js ***!
+    !*** ./node_modules/@ionic/core/dist/esm/input-shims-d4609e0d.js ***!
     \*******************************************************************/
 
   /*! exports provided: startInputShims */
 
   /***/
-  function node_modulesIonicCoreDistEsmInputShims77712174Js(module, __webpack_exports__, __webpack_require__) {
+  function node_modulesIonicCoreDistEsmInputShimsD4609e0dJs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -198,7 +198,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       var visibleAreaBottom = Math.min(contentRect.bottom, platformHeight - keyboardHeight); // compute safe area
 
       var safeAreaTop = visibleAreaTop + 15;
-      var safeAreaBottom = visibleAreaBottom * 0.5; // figure out if each edge of the input is within the safe area
+      var safeAreaBottom = visibleAreaBottom - 15; // figure out if each edge of the input is within the safe area
 
       var distanceToBottom = safeAreaBottom - inputBottom;
       var distanceToTop = safeAreaTop - inputTop; // desiredScrollAmount is the negated distance to the safe area according to our calculations.
@@ -571,4 +571,4 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
   }
 }]);
-//# sourceMappingURL=input-shims-77712174-js-es5.js.map
+//# sourceMappingURL=input-shims-d4609e0d-js-es5.js.map

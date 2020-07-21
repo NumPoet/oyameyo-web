@@ -43,15 +43,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! ./index-e23c3ffd.js */
-    "./node_modules/@ionic/core/dist/esm/index-e23c3ffd.js");
+    var _index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! ./index-29df6f59.js */
+    "./node_modules/@ionic/core/dist/esm/index-29df6f59.js");
     /* harmony import */
 
 
-    var _ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! ./ionic-global-fbc9a2ac.js */
-    "./node_modules/@ionic/core/dist/esm/ionic-global-fbc9a2ac.js");
+    var _ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./ionic-global-08f4fb8a.js */
+    "./node_modules/@ionic/core/dist/esm/ionic-global-08f4fb8a.js");
     /* harmony import */
 
 
@@ -61,9 +61,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _index_b60886e1_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-    /*! ./index-b60886e1.js */
-    "./node_modules/@ionic/core/dist/esm/index-b60886e1.js");
+    var _index_66edb21f_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ./index-66edb21f.js */
+    "./node_modules/@ionic/core/dist/esm/index-66edb21f.js");
     /* harmony import */
 
 
@@ -229,7 +229,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       function Nav(hostRef) {
         _classCallCheck(this, Nav);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
         this.transInstr = [];
         this.animationEnabled = true;
         this.useRouter = false;
@@ -241,9 +241,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
          */
 
         this.animated = true;
-        this.ionNavWillLoad = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionNavWillLoad", 7);
-        this.ionNavWillChange = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionNavWillChange", 3);
-        this.ionNavDidChange = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionNavDidChange", 3);
+        this.ionNavWillLoad = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionNavWillLoad", 7);
+        this.ionNavWillChange = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionNavWillChange", 3);
+        this.ionNavDidChange = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionNavDidChange", 3);
       }
 
       _createClass(Nav, [{
@@ -268,8 +268,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.useRouter = !!document.querySelector('ion-router') && !this.el.closest('[no-router]');
 
           if (this.swipeGesture === undefined) {
-            var mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
-            this.swipeGesture = _ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["c"].getBoolean('swipeBackEnabled', mode === 'ios');
+            var mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+            this.swipeGesture = _ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["c"].getBoolean('swipeBackEnabled', mode === 'ios');
           }
 
           this.ionNavWillLoad.emit();
@@ -285,10 +285,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                     this.rootChanged();
                     _context2.next = 3;
                     return __webpack_require__.e(
-                    /*! import() | swipe-back-7b4b8b66-js */
-                    "swipe-back-7b4b8b66-js").then(__webpack_require__.bind(null,
-                    /*! ./swipe-back-7b4b8b66.js */
-                    "./node_modules/@ionic/core/dist/esm/swipe-back-7b4b8b66.js"));
+                    /*! import() | swipe-back-0a6a44c8-js */
+                    "swipe-back-0a6a44c8-js").then(__webpack_require__.bind(null,
+                    /*! ./swipe-back-0a6a44c8.js */
+                    "./node_modules/@ionic/core/dist/esm/swipe-back-0a6a44c8.js"));
 
                   case 3:
                     this.gesture = _context2.sent.createSwipeBackGesture(this.el, this.canStart.bind(this), this.onStart.bind(this), this.onMove.bind(this), this.onEnd.bind(this));
@@ -317,7 +317,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           try {
             for (_iterator.s(); !(_step = _iterator.n()).done;) {
               var view = _step.value;
-              Object(_index_b60886e1_js__WEBPACK_IMPORTED_MODULE_3__["l"])(view.element, _index_b60886e1_js__WEBPACK_IMPORTED_MODULE_3__["d"]);
+              Object(_index_66edb21f_js__WEBPACK_IMPORTED_MODULE_3__["l"])(view.element, _index_66edb21f_js__WEBPACK_IMPORTED_MODULE_3__["d"]);
 
               view._destroy();
             }
@@ -534,7 +534,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
       }, {
         key: "setRouteId",
-        value: function setRouteId(id, params, direction) {
+        value: function setRouteId(id, params, direction, animation) {
           var active = this.getActiveSync();
 
           if (matches(active, id, params)) {
@@ -597,14 +597,18 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
             if (viewController) {
               finish = this.popTo(viewController, Object.assign(Object.assign({}, commonOpts), {
-                direction: 'back'
+                direction: 'back',
+                animationBuilder: animation
               }));
             } else if (direction === 'forward') {
-              finish = this.push(id, params, commonOpts);
+              finish = this.push(id, params, Object.assign(Object.assign({}, commonOpts), {
+                animationBuilder: animation
+              }));
             } else if (direction === 'back') {
               finish = this.setRoot(id, params, Object.assign(Object.assign({}, commonOpts), {
                 direction: 'back',
-                animated: true
+                animated: true,
+                animationBuilder: animation
               }));
             }
           }
@@ -819,7 +823,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         key: "runTransition",
         value: function () {
           var _runTransition = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee5(ti) {
-            var leavingView, enteringView, requiresTransition, result;
+            var leavingView, enteringView, requiresTransition, isBackDirection, result;
             return regeneratorRuntime.wrap(function _callee5$(_context5) {
               while (1) {
                 switch (_context5.prev = _context5.next) {
@@ -853,20 +857,34 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
                     requiresTransition = (ti.enteringRequiresTransition || ti.leavingRequiresTransition) && enteringView !== leavingView;
 
+                    if (requiresTransition && ti.opts && leavingView) {
+                      isBackDirection = ti.opts.direction === 'back';
+                      /**
+                       * If heading back, use the entering page's animation
+                       * unless otherwise specified by the developer.
+                       */
+
+                      if (isBackDirection) {
+                        ti.opts.animationBuilder = ti.opts.animationBuilder || enteringView && enteringView.animationBuilder;
+                      }
+
+                      leavingView.animationBuilder = ti.opts.animationBuilder;
+                    }
+
                     if (!requiresTransition) {
-                      _context5.next = 19;
+                      _context5.next = 20;
                       break;
                     }
 
-                    _context5.next = 16;
+                    _context5.next = 17;
                     return this.transition(enteringView, leavingView, ti);
 
-                  case 16:
+                  case 17:
                     _context5.t0 = _context5.sent;
-                    _context5.next = 20;
+                    _context5.next = 21;
                     break;
 
-                  case 19:
+                  case 20:
                     _context5.t0 = {
                       // transition is not required, so we are already done!
                       // they're inserting/removing the views somewhere in the middle or
@@ -876,28 +894,28 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                       requiresTransition: false
                     };
 
-                  case 20:
+                  case 21:
                     result = _context5.t0;
                     this.success(result, ti);
                     this.ionNavDidChange.emit();
-                    _context5.next = 28;
+                    _context5.next = 29;
                     break;
 
-                  case 25:
-                    _context5.prev = 25;
+                  case 26:
+                    _context5.prev = 26;
                     _context5.t1 = _context5["catch"](0);
                     this.failed(_context5.t1, ti);
 
-                  case 28:
+                  case 29:
                     this.isTransitioning = false;
                     this.nextTrns();
 
-                  case 30:
+                  case 31:
                   case "end":
                     return _context5.stop();
                 }
               }
-            }, _callee5, this, [[0, 25]]);
+            }, _callee5, this, [[0, 26]]);
           }));
 
           function runTransition(_x2) {
@@ -1093,9 +1111,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             try {
               for (_iterator4.s(); !(_step4 = _iterator4.n()).done;) {
                 var _view2 = _step4.value;
-                Object(_index_b60886e1_js__WEBPACK_IMPORTED_MODULE_3__["l"])(_view2.element, _index_b60886e1_js__WEBPACK_IMPORTED_MODULE_3__["b"]);
-                Object(_index_b60886e1_js__WEBPACK_IMPORTED_MODULE_3__["l"])(_view2.element, _index_b60886e1_js__WEBPACK_IMPORTED_MODULE_3__["c"]);
-                Object(_index_b60886e1_js__WEBPACK_IMPORTED_MODULE_3__["l"])(_view2.element, _index_b60886e1_js__WEBPACK_IMPORTED_MODULE_3__["d"]);
+                Object(_index_66edb21f_js__WEBPACK_IMPORTED_MODULE_3__["l"])(_view2.element, _index_66edb21f_js__WEBPACK_IMPORTED_MODULE_3__["b"]);
+                Object(_index_66edb21f_js__WEBPACK_IMPORTED_MODULE_3__["l"])(_view2.element, _index_66edb21f_js__WEBPACK_IMPORTED_MODULE_3__["c"]);
+                Object(_index_66edb21f_js__WEBPACK_IMPORTED_MODULE_3__["l"])(_view2.element, _index_66edb21f_js__WEBPACK_IMPORTED_MODULE_3__["d"]);
               } // once all lifecycle events has been delivered, we can safely detroy the views
 
             } catch (err) {
@@ -1137,21 +1155,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                     progressCallback = opts.progressAnimation ? function (ani) {
                       return _this.sbAni = ani;
                     } : undefined;
-                    mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+                    mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
                     enteringEl = enteringView.element;
                     leavingEl = leavingView && leavingView.element;
                     animationOpts = Object.assign({
                       mode: mode,
                       showGoBack: this.canGoBackSync(enteringView),
                       baseEl: this.el,
-                      animationBuilder: this.animation || opts.animationBuilder || _ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["c"].get('navAnimation'),
+                      animationBuilder: this.animation || opts.animationBuilder || _ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["c"].get('navAnimation'),
                       progressCallback: progressCallback,
-                      animated: this.animated && _ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["c"].getBoolean('animated', true),
+                      animated: this.animated && _ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["c"].getBoolean('animated', true),
                       enteringEl: enteringEl,
                       leavingEl: leavingEl
                     }, opts);
                     _context6.next = 8;
-                    return Object(_index_b60886e1_js__WEBPACK_IMPORTED_MODULE_3__["t"])(animationOpts);
+                    return Object(_index_66edb21f_js__WEBPACK_IMPORTED_MODULE_3__["t"])(animationOpts);
 
                   case 8:
                     _yield$Object = _context6.sent;
@@ -1252,12 +1270,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             if (i > activeViewIndex) {
               // this view comes after the active view
               // let's unload it
-              Object(_index_b60886e1_js__WEBPACK_IMPORTED_MODULE_3__["l"])(element, _index_b60886e1_js__WEBPACK_IMPORTED_MODULE_3__["d"]);
+              Object(_index_66edb21f_js__WEBPACK_IMPORTED_MODULE_3__["l"])(element, _index_66edb21f_js__WEBPACK_IMPORTED_MODULE_3__["d"]);
               this.destroyView(view);
             } else if (i < activeViewIndex) {
               // this view comes before the active view
               // and it is not a portal then ensure it is hidden
-              Object(_index_b60886e1_js__WEBPACK_IMPORTED_MODULE_3__["s"])(element, true);
+              Object(_index_66edb21f_js__WEBPACK_IMPORTED_MODULE_3__["s"])(element, true);
             }
           }
         }
@@ -1321,12 +1339,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "render",
         value: function render() {
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null);
         }
       }, {
         key: "el",
         get: function get() {
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
         }
       }], [{
         key: "watchers",
@@ -1343,25 +1361,28 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     Nav.style = navCss;
 
-    var navLink = function navLink(el, routerDirection, component, componentProps) {
+    var navLink = function navLink(el, routerDirection, component, componentProps, routerAnimation) {
       var nav = el.closest('ion-nav');
 
       if (nav) {
         if (routerDirection === 'forward') {
           if (component !== undefined) {
             return nav.push(component, componentProps, {
-              skipIfBusy: true
+              skipIfBusy: true,
+              animationBuilder: routerAnimation
             });
           }
         } else if (routerDirection === 'root') {
           if (component !== undefined) {
             return nav.setRoot(component, componentProps, {
-              skipIfBusy: true
+              skipIfBusy: true,
+              animationBuilder: routerAnimation
             });
           }
         } else if (routerDirection === 'back') {
           return nav.pop({
-            skipIfBusy: true
+            skipIfBusy: true,
+            animationBuilder: routerAnimation
           });
         }
       }
@@ -1375,7 +1396,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _classCallCheck(this, NavLink);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
         /**
          * The transition direction when navigating to another page.
          */
@@ -1383,21 +1404,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.routerDirection = 'forward';
 
         this.onClick = function () {
-          return navLink(_this3.el, _this3.routerDirection, _this3.component, _this3.componentProps);
+          return navLink(_this3.el, _this3.routerDirection, _this3.component, _this3.componentProps, _this3.routerAnimation);
         };
       }
 
       _createClass(NavLink, [{
         key: "render",
         value: function render() {
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
             onClick: this.onClick
           });
         }
       }, {
         key: "el",
         get: function get() {
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
         }
       }]);
 

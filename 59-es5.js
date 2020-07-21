@@ -45,15 +45,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! ./index-e23c3ffd.js */
-    "./node_modules/@ionic/core/dist/esm/index-e23c3ffd.js");
+    var _index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! ./index-29df6f59.js */
+    "./node_modules/@ionic/core/dist/esm/index-29df6f59.js");
     /* harmony import */
 
 
-    var _ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! ./ionic-global-fbc9a2ac.js */
-    "./node_modules/@ionic/core/dist/esm/ionic-global-fbc9a2ac.js");
+    var _ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./ionic-global-08f4fb8a.js */
+    "./node_modules/@ionic/core/dist/esm/ionic-global-08f4fb8a.js");
     /* harmony import */
 
 
@@ -69,15 +69,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _overlays_e78a87c2_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-    /*! ./overlays-e78a87c2.js */
-    "./node_modules/@ionic/core/dist/esm/overlays-e78a87c2.js");
+    var _overlays_7369bfcc_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ./overlays-7369bfcc.js */
+    "./node_modules/@ionic/core/dist/esm/overlays-7369bfcc.js");
     /* harmony import */
 
 
-    var _theme_c2dc54d9_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-    /*! ./theme-c2dc54d9.js */
-    "./node_modules/@ionic/core/dist/esm/theme-c2dc54d9.js");
+    var _theme_3f0b0c04_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! ./theme-3f0b0c04.js */
+    "./node_modules/@ionic/core/dist/esm/theme-3f0b0c04.js");
 
     var watchForOptions = function watchForOptions(containerEl, tagName, onChange) {
       /* tslint:disable-next-line */
@@ -119,6 +119,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var selectIosCss = ":host{--placeholder-color:currentColor;--placeholder-opacity:0.33;padding-left:var(--padding-start);padding-right:var(--padding-end);padding-top:var(--padding-top);padding-bottom:var(--padding-bottom);display:-ms-flexbox;display:flex;position:relative;-ms-flex-align:center;align-items:center;font-family:var(--ion-font-family, inherit);overflow:hidden;z-index:2}@supports ((-webkit-margin-start: 0) or (margin-inline-start: 0)) or (-webkit-margin-start: 0){:host{padding-left:unset;padding-right:unset;-webkit-padding-start:var(--padding-start);padding-inline-start:var(--padding-start);-webkit-padding-end:var(--padding-end);padding-inline-end:var(--padding-end)}}:host(.in-item){position:static;max-width:45%}:host(.select-disabled){opacity:0.4;pointer-events:none}:host(.ion-focused) button{border:2px solid #5e9ed6}.select-placeholder{color:var(--placeholder-color);opacity:var(--placeholder-opacity)}button{left:0;top:0;margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;position:absolute;width:100%;height:100%;border:0;background:transparent;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;outline:none}[dir=rtl] button,:host-context([dir=rtl]) button{left:unset;right:unset;right:0}button::-moz-focus-inner{border:0}.select-icon{position:relative;opacity:0.33}.select-text{-ms-flex:1;flex:1;min-width:16px;font-size:inherit;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.select-icon-inner{left:5px;top:50%;margin-top:-3px;position:absolute;width:0;height:0;border-top:5px solid;border-right:5px solid transparent;border-left:5px solid transparent;color:currentColor;pointer-events:none}[dir=rtl] .select-icon-inner,:host-context([dir=rtl]) .select-icon-inner{left:unset;right:unset;right:5px}:host{--padding-top:10px;--padding-end:10px;--padding-bottom:10px;--padding-start:20px}.select-icon{width:12px;height:18px}";
     var selectMdCss = ":host{--placeholder-color:currentColor;--placeholder-opacity:0.33;padding-left:var(--padding-start);padding-right:var(--padding-end);padding-top:var(--padding-top);padding-bottom:var(--padding-bottom);display:-ms-flexbox;display:flex;position:relative;-ms-flex-align:center;align-items:center;font-family:var(--ion-font-family, inherit);overflow:hidden;z-index:2}@supports ((-webkit-margin-start: 0) or (margin-inline-start: 0)) or (-webkit-margin-start: 0){:host{padding-left:unset;padding-right:unset;-webkit-padding-start:var(--padding-start);padding-inline-start:var(--padding-start);-webkit-padding-end:var(--padding-end);padding-inline-end:var(--padding-end)}}:host(.in-item){position:static;max-width:45%}:host(.select-disabled){opacity:0.4;pointer-events:none}:host(.ion-focused) button{border:2px solid #5e9ed6}.select-placeholder{color:var(--placeholder-color);opacity:var(--placeholder-opacity)}button{left:0;top:0;margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;position:absolute;width:100%;height:100%;border:0;background:transparent;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;outline:none}[dir=rtl] button,:host-context([dir=rtl]) button{left:unset;right:unset;right:0}button::-moz-focus-inner{border:0}.select-icon{position:relative;opacity:0.33}.select-text{-ms-flex:1;flex:1;min-width:16px;font-size:inherit;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.select-icon-inner{left:5px;top:50%;margin-top:-3px;position:absolute;width:0;height:0;border-top:5px solid;border-right:5px solid transparent;border-left:5px solid transparent;color:currentColor;pointer-events:none}[dir=rtl] .select-icon-inner,:host-context([dir=rtl]) .select-icon-inner{left:unset;right:unset;right:5px}:host{--padding-top:10px;--padding-end:0;--padding-bottom:11px;--padding-start:16px}.select-icon{width:19px;height:19px}";
+    /**
+     * @virtualProp {"ios" | "md"} mode - The mode determines which platform styles to use.
+     *
+     * @part placeholder - The text displayed in the select when there is no value.
+     * @part text - The displayed value of the select.
+     * @part icon - The select icon container.
+     */
 
     var Select = /*#__PURE__*/function () {
       function Select(hostRef) {
@@ -126,7 +133,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _classCallCheck(this, Select);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
         this.inputId = "ion-sel-".concat(selectIds++);
         this.didInit = false;
         this.isExpanded = false;
@@ -186,11 +193,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           _this.ionBlur.emit();
         };
 
-        this.ionChange = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionChange", 7);
-        this.ionCancel = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionCancel", 7);
-        this.ionFocus = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionFocus", 7);
-        this.ionBlur = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionBlur", 7);
-        this.ionStyle = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionStyle", 7);
+        this.ionChange = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionChange", 7);
+        this.ionCancel = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionCancel", 7);
+        this.ionFocus = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionFocus", 7);
+        this.ionBlur = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionBlur", 7);
+        this.ionStyle = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionStyle", 7);
       }
 
       _createClass(Select, [{
@@ -384,10 +391,16 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           var _this4 = this;
 
           var actionSheetButtons = data.map(function (option) {
-            var value = getOptionValue(option);
+            var value = getOptionValue(option); // Remove hydrated before copying over classes
+
+            var copyClasses = Array.from(option.classList).filter(function (cls) {
+              return cls !== 'hydrated';
+            }).join(' ');
+            var optClass = "".concat(OPTION_CLASS, " ").concat(copyClasses);
             return {
               role: isOptionSelected(value, selectValue, _this4.compareWith) ? 'selected' : '',
               text: option.textContent,
+              cssClass: optClass,
               handler: function handler() {
                 _this4.value = value;
               }
@@ -408,29 +421,42 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function createAlertInputs(data, inputType, selectValue) {
           var _this5 = this;
 
-          return data.map(function (o) {
-            var value = getOptionValue(o);
+          var alertInputs = data.map(function (option) {
+            var value = getOptionValue(option); // Remove hydrated before copying over classes
+
+            var copyClasses = Array.from(option.classList).filter(function (cls) {
+              return cls !== 'hydrated';
+            }).join(' ');
+            var optClass = "".concat(OPTION_CLASS, " ").concat(copyClasses);
             return {
               type: inputType,
-              label: o.textContent || '',
+              cssClass: optClass,
+              label: option.textContent || '',
               value: value,
               checked: isOptionSelected(value, selectValue, _this5.compareWith),
-              disabled: o.disabled
+              disabled: option.disabled
             };
           });
+          return alertInputs;
         }
       }, {
         key: "createPopoverOptions",
         value: function createPopoverOptions(data, selectValue) {
           var _this6 = this;
 
-          return data.map(function (o) {
-            var value = getOptionValue(o);
+          var popoverOptions = data.map(function (option) {
+            var value = getOptionValue(option); // Remove hydrated before copying over classes
+
+            var copyClasses = Array.from(option.classList).filter(function (cls) {
+              return cls !== 'hydrated';
+            }).join(' ');
+            var optClass = "".concat(OPTION_CLASS, " ").concat(copyClasses);
             return {
-              text: o.textContent || '',
+              text: option.textContent || '',
+              cssClass: optClass,
               value: value,
               checked: isOptionSelected(value, selectValue, _this6.compareWith),
-              disabled: o.disabled,
+              disabled: option.disabled,
               handler: function handler() {
                 _this6.value = value;
 
@@ -438,6 +464,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               }
             };
           });
+          return popoverOptions;
         }
       }, {
         key: "openPopover",
@@ -449,7 +476,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                 switch (_context4.prev = _context4.next) {
                   case 0:
                     interfaceOptions = this.interfaceOptions;
-                    mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+                    mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
                     value = this.value;
                     popoverOpts = Object.assign(Object.assign({
                       mode: mode
@@ -465,7 +492,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                         options: this.createPopoverOptions(this.childOpts, value)
                       }
                     });
-                    return _context4.abrupt("return", _overlays_e78a87c2_js__WEBPACK_IMPORTED_MODULE_4__["c"].create(popoverOpts));
+                    return _context4.abrupt("return", _overlays_7369bfcc_js__WEBPACK_IMPORTED_MODULE_4__["c"].create(popoverOpts));
 
                   case 5:
                   case "end":
@@ -490,7 +517,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               while (1) {
                 switch (_context5.prev = _context5.next) {
                   case 0:
-                    mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+                    mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
                     interfaceOptions = this.interfaceOptions;
                     actionSheetOpts = Object.assign(Object.assign({
                       mode: mode
@@ -498,7 +525,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                       buttons: this.createActionSheetButtons(this.childOpts, this.value),
                       cssClass: ['select-action-sheet', interfaceOptions.cssClass]
                     });
-                    return _context5.abrupt("return", _overlays_e78a87c2_js__WEBPACK_IMPORTED_MODULE_4__["b"].create(actionSheetOpts));
+                    return _context5.abrupt("return", _overlays_7369bfcc_js__WEBPACK_IMPORTED_MODULE_4__["b"].create(actionSheetOpts));
 
                   case 4:
                   case "end":
@@ -529,7 +556,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                     labelText = label ? label.textContent : null;
                     interfaceOptions = this.interfaceOptions;
                     inputType = this.multiple ? 'checkbox' : 'radio';
-                    mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+                    mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
                     alertOpts = Object.assign(Object.assign({
                       mode: mode
                     }, interfaceOptions), {
@@ -549,7 +576,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                       }],
                       cssClass: ['select-alert', interfaceOptions.cssClass, this.multiple ? 'multiple-select-alert' : 'single-select-alert']
                     });
-                    return _context6.abrupt("return", _overlays_e78a87c2_js__WEBPACK_IMPORTED_MODULE_4__["a"].create(alertOpts));
+                    return _context6.abrupt("return", _overlays_7369bfcc_js__WEBPACK_IMPORTED_MODULE_4__["a"].create(alertOpts));
 
                   case 7:
                   case "end":
@@ -631,7 +658,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               isExpanded = this.isExpanded,
               value = this.value,
               el = this.el;
-          var mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+          var mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
           var labelId = this.inputId + '-lbl';
           var label = Object(_helpers_5c745fbd_js__WEBPACK_IMPORTED_MODULE_2__["f"])(el);
 
@@ -653,24 +680,24 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             'select-placeholder': addPlaceholderClass
           };
           var textPart = addPlaceholderClass ? 'placeholder' : 'text';
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
             onClick: this.onClick,
-            role: "combobox",
+            role: "listbox",
             "aria-haspopup": "dialog",
             "aria-disabled": disabled ? 'true' : null,
             "aria-expanded": "".concat(isExpanded),
             "aria-labelledby": labelId,
-            "class": (_class = {}, _defineProperty(_class, mode, true), _defineProperty(_class, 'in-item', Object(_theme_c2dc54d9_js__WEBPACK_IMPORTED_MODULE_5__["h"])('ion-item', el)), _defineProperty(_class, 'select-disabled', disabled), _class)
-          }, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
+            "class": (_class = {}, _defineProperty(_class, mode, true), _defineProperty(_class, 'in-item', Object(_theme_3f0b0c04_js__WEBPACK_IMPORTED_MODULE_5__["h"])('ion-item', el)), _defineProperty(_class, 'select-disabled', disabled), _class)
+          }, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
             "class": selectTextClasses,
             part: textPart
-          }, selectText), Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
+          }, selectText), Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
             "class": "select-icon",
             role: "presentation",
             part: "icon"
-          }, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
+          }, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
             "class": "select-icon-inner"
-          })), Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("button", {
+          })), Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("button", {
             type: "button",
             onFocus: this.onFocus,
             onBlur: this.onBlur,
@@ -688,7 +715,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "el",
         get: function get() {
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
         }
       }], [{
         key: "watchers",
@@ -769,6 +796,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     };
 
     var selectIds = 0;
+    var OPTION_CLASS = 'select-interface-option';
     Select.style = {
       /*STENCIL:MODE:ios*/
       ios: selectIosCss,
@@ -782,10 +810,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       function SelectOption(hostRef) {
         _classCallCheck(this, SelectOption);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
         this.inputId = "ion-selopt-".concat(selectOptionIds++);
         /**
-         * If `true`, the user cannot interact with the select option.
+         * If `true`, the user cannot interact with the select option. This property does not apply when `interface="action-sheet"` as `ion-action-sheet` does not allow for disabled buttons.
          */
 
         this.disabled = false;
@@ -794,16 +822,16 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(SelectOption, [{
         key: "render",
         value: function render() {
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
             role: "option",
             id: this.inputId,
-            "class": Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this)
+            "class": Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this)
           });
         }
       }, {
         key: "el",
         get: function get() {
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
         }
       }]);
 
@@ -813,12 +841,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var selectOptionIds = 0;
     SelectOption.style = selectOptionCss;
     var selectPopoverCss = ".sc-ion-select-popover-h ion-list.sc-ion-select-popover{margin-left:0;margin-right:0;margin-top:-1px;margin-bottom:-1px}.sc-ion-select-popover-h ion-list-header.sc-ion-select-popover,.sc-ion-select-popover-h ion-label.sc-ion-select-popover{margin-left:0;margin-right:0;margin-top:0;margin-bottom:0}";
+    /**
+     * @internal
+     */
 
     var SelectPopover = /*#__PURE__*/function () {
       function SelectPopover(hostRef) {
         _classCallCheck(this, SelectPopover);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
         /** Array of options for the popover */
 
         this.options = [];
@@ -832,7 +863,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           });
 
           if (option) {
-            Object(_overlays_e78a87c2_js__WEBPACK_IMPORTED_MODULE_4__["s"])(option.handler);
+            Object(_overlays_7369bfcc_js__WEBPACK_IMPORTED_MODULE_4__["s"])(option.handler);
           }
         }
       }, {
@@ -842,14 +873,16 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             return o.checked;
           });
           var checkedValue = checkedOption ? checkedOption.value : undefined;
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
-            "class": Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this)
-          }, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-list", null, this.header !== undefined && Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-list-header", null, this.header), (this.subHeader !== undefined || this.message !== undefined) && Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-item", null, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-label", {
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
+            "class": Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this)
+          }, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-list", null, this.header !== undefined && Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-list-header", null, this.header), (this.subHeader !== undefined || this.message !== undefined) && Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-item", null, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-label", {
             "class": "ion-text-wrap"
-          }, this.subHeader !== undefined && Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("h3", null, this.subHeader), this.message !== undefined && Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("p", null, this.message))), Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-radio-group", {
+          }, this.subHeader !== undefined && Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("h3", null, this.subHeader), this.message !== undefined && Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("p", null, this.message))), Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-radio-group", {
             value: checkedValue
           }, this.options.map(function (option) {
-            return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-item", null, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-label", null, option.text), Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-radio", {
+            return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-item", {
+              "class": Object(_theme_3f0b0c04_js__WEBPACK_IMPORTED_MODULE_5__["g"])(option.cssClass)
+            }, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-label", null, option.text), Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-radio", {
               value: option.value,
               disabled: option.disabled
             }));

@@ -6,6 +6,128 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["common"], {
   /***/
+  "./node_modules/@ionic/core/dist/esm/button-active-4b76b5c3.js":
+  /*!*********************************************************************!*\
+    !*** ./node_modules/@ionic/core/dist/esm/button-active-4b76b5c3.js ***!
+    \*********************************************************************/
+
+  /*! exports provided: c */
+
+  /***/
+  function node_modulesIonicCoreDistEsmButtonActive4b76b5c3Js(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "c", function () {
+      return createButtonActiveGesture;
+    });
+    /* harmony import */
+
+
+    var _index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! ./index-29df6f59.js */
+    "./node_modules/@ionic/core/dist/esm/index-29df6f59.js");
+    /* harmony import */
+
+
+    var _index_eea61379_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./index-eea61379.js */
+    "./node_modules/@ionic/core/dist/esm/index-eea61379.js");
+    /* harmony import */
+
+
+    var _haptic_7b8ba70a_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ./haptic-7b8ba70a.js */
+    "./node_modules/@ionic/core/dist/esm/haptic-7b8ba70a.js");
+
+    var createButtonActiveGesture = function createButtonActiveGesture(el, isButton) {
+      var currentTouchedButton;
+      var initialTouchedButton;
+
+      var activateButtonAtPoint = function activateButtonAtPoint(x, y, hapticFeedbackFn) {
+        if (typeof document === 'undefined') {
+          return;
+        }
+
+        var target = document.elementFromPoint(x, y);
+
+        if (!target || !isButton(target)) {
+          clearActiveButton();
+          return;
+        }
+
+        if (target !== currentTouchedButton) {
+          clearActiveButton();
+          setActiveButton(target, hapticFeedbackFn);
+        }
+      };
+
+      var setActiveButton = function setActiveButton(button, hapticFeedbackFn) {
+        currentTouchedButton = button;
+
+        if (!initialTouchedButton) {
+          initialTouchedButton = currentTouchedButton;
+        }
+
+        var buttonToModify = currentTouchedButton;
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["w"])(function () {
+          return buttonToModify.classList.add('ion-activated');
+        });
+        hapticFeedbackFn();
+      };
+
+      var clearActiveButton = function clearActiveButton() {
+        var dispatchClick = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
+
+        if (!currentTouchedButton) {
+          return;
+        }
+
+        var buttonToModify = currentTouchedButton;
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["w"])(function () {
+          return buttonToModify.classList.remove('ion-activated');
+        });
+        /**
+         * Clicking on one button, but releasing on another button
+         * does not dispatch a click event in browsers, so we
+         * need to do it manually here. Some browsers will
+         * dispatch a click if clicking on one button, dragging over
+         * another button, and releasing on the original button. In that
+         * case, we need to make sure we do not cause a double click there.
+         */
+
+        if (dispatchClick && initialTouchedButton !== currentTouchedButton) {
+          currentTouchedButton.click();
+        }
+
+        currentTouchedButton = undefined;
+      };
+
+      return Object(_index_eea61379_js__WEBPACK_IMPORTED_MODULE_1__["createGesture"])({
+        el: el,
+        gestureName: 'buttonActiveDrag',
+        threshold: 0,
+        onStart: function onStart(ev) {
+          return activateButtonAtPoint(ev.currentX, ev.currentY, _haptic_7b8ba70a_js__WEBPACK_IMPORTED_MODULE_2__["a"]);
+        },
+        onMove: function onMove(ev) {
+          return activateButtonAtPoint(ev.currentX, ev.currentY, _haptic_7b8ba70a_js__WEBPACK_IMPORTED_MODULE_2__["b"]);
+        },
+        onEnd: function onEnd() {
+          clearActiveButton(true);
+          Object(_haptic_7b8ba70a_js__WEBPACK_IMPORTED_MODULE_2__["h"])();
+          initialTouchedButton = undefined;
+        }
+      });
+    };
+    /***/
+
+  },
+
+  /***/
   "./node_modules/@ionic/core/dist/esm/framework-delegate-d1eb6504.js":
   /*!**************************************************************************!*\
     !*** ./node_modules/@ionic/core/dist/esm/framework-delegate-d1eb6504.js ***!
@@ -109,15 +231,15 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   },
 
   /***/
-  "./node_modules/@ionic/core/dist/esm/haptic-da73c8fd.js":
+  "./node_modules/@ionic/core/dist/esm/haptic-7b8ba70a.js":
   /*!**************************************************************!*\
-    !*** ./node_modules/@ionic/core/dist/esm/haptic-da73c8fd.js ***!
+    !*** ./node_modules/@ionic/core/dist/esm/haptic-7b8ba70a.js ***!
     \**************************************************************/
 
   /*! exports provided: a, b, c, d, h */
 
   /***/
-  function node_modulesIonicCoreDistEsmHapticDa73c8fdJs(module, __webpack_exports__, __webpack_require__) {
+  function node_modulesIonicCoreDistEsmHaptic7b8ba70aJs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -125,31 +247,31 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
 
     __webpack_require__.d(__webpack_exports__, "a", function () {
-      return hapticImpact;
-    });
-    /* harmony export (binding) */
-
-
-    __webpack_require__.d(__webpack_exports__, "b", function () {
       return hapticSelectionStart;
     });
     /* harmony export (binding) */
 
 
-    __webpack_require__.d(__webpack_exports__, "c", function () {
+    __webpack_require__.d(__webpack_exports__, "b", function () {
       return hapticSelectionChanged;
     });
     /* harmony export (binding) */
 
 
+    __webpack_require__.d(__webpack_exports__, "c", function () {
+      return hapticSelection;
+    });
+    /* harmony export (binding) */
+
+
     __webpack_require__.d(__webpack_exports__, "d", function () {
-      return hapticSelectionEnd;
+      return hapticImpact;
     });
     /* harmony export (binding) */
 
 
     __webpack_require__.d(__webpack_exports__, "h", function () {
-      return hapticSelection;
+      return hapticSelectionEnd;
     });
 
     var HapticEngine = {
@@ -230,9 +352,9 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
         }
 
         if (this.isCapacitor()) {
-          engine.selectionChanged();
+          engine.selectionEnd();
         } else {
-          engine.gestureSelectionChanged();
+          engine.gestureSelectionEnd();
         }
       }
     };
@@ -414,15 +536,15 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   },
 
   /***/
-  "./node_modules/@ionic/core/dist/esm/theme-c2dc54d9.js":
+  "./node_modules/@ionic/core/dist/esm/theme-3f0b0c04.js":
   /*!*************************************************************!*\
-    !*** ./node_modules/@ionic/core/dist/esm/theme-c2dc54d9.js ***!
+    !*** ./node_modules/@ionic/core/dist/esm/theme-3f0b0c04.js ***!
     \*************************************************************/
 
   /*! exports provided: c, g, h, o */
 
   /***/
-  function node_modulesIonicCoreDistEsmThemeC2dc54d9Js(module, __webpack_exports__, __webpack_require__) {
+  function node_modulesIonicCoreDistEsmTheme3f0b0c04Js(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -491,7 +613,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     var SCHEME = /^[a-z][a-z0-9+\-.]*:/;
 
     var openURL = /*#__PURE__*/function () {
-      var _ref3 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2(url, ev, direction) {
+      var _ref3 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2(url, ev, direction, animation) {
         var router;
         return regeneratorRuntime.wrap(function _callee2$(_context2) {
           while (1) {
@@ -513,7 +635,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                   ev.preventDefault();
                 }
 
-                return _context2.abrupt("return", router.push(url, direction));
+                return _context2.abrupt("return", router.push(url, direction, animation));
 
               case 5:
                 return _context2.abrupt("return", false);
@@ -526,7 +648,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
         }, _callee2);
       }));
 
-      return function openURL(_x6, _x7, _x8) {
+      return function openURL(_x6, _x7, _x8, _x9) {
         return _ref3.apply(this, arguments);
       };
     }();

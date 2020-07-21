@@ -75,15 +75,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! ./index-e23c3ffd.js */
-    "./node_modules/@ionic/core/dist/esm/index-e23c3ffd.js");
+    var _index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! ./index-29df6f59.js */
+    "./node_modules/@ionic/core/dist/esm/index-29df6f59.js");
     /* harmony import */
 
 
-    var _ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! ./ionic-global-fbc9a2ac.js */
-    "./node_modules/@ionic/core/dist/esm/ionic-global-fbc9a2ac.js");
+    var _ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./ionic-global-08f4fb8a.js */
+    "./node_modules/@ionic/core/dist/esm/ionic-global-08f4fb8a.js");
     /* harmony import */
 
 
@@ -93,9 +93,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _index_b60886e1_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-    /*! ./index-b60886e1.js */
-    "./node_modules/@ionic/core/dist/esm/index-b60886e1.js");
+    var _index_66edb21f_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ./index-66edb21f.js */
+    "./node_modules/@ionic/core/dist/esm/index-66edb21f.js");
     /* harmony import */
 
 
@@ -105,9 +105,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _theme_c2dc54d9_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-    /*! ./theme-c2dc54d9.js */
-    "./node_modules/@ionic/core/dist/esm/theme-c2dc54d9.js");
+    var _theme_3f0b0c04_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! ./theme-3f0b0c04.js */
+    "./node_modules/@ionic/core/dist/esm/theme-3f0b0c04.js");
     /* harmony import */
 
 
@@ -121,7 +121,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       function App(hostRef) {
         _classCallCheck(this, App);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
       }
 
       _createClass(App, [{
@@ -129,39 +129,39 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function componentDidLoad() {
           {
             rIC(function () {
-              var isHybrid = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["i"])(window, 'hybrid');
+              var isHybrid = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["i"])(window, 'hybrid');
 
-              if (!_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["c"].getBoolean('_testing')) {
+              if (!_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["c"].getBoolean('_testing')) {
                 __webpack_require__.e(
                 /*! import() | tap-click-252af35a-js */
                 "tap-click-252af35a-js").then(__webpack_require__.bind(null,
                 /*! ./tap-click-252af35a.js */
                 "./node_modules/@ionic/core/dist/esm/tap-click-252af35a.js")).then(function (module) {
-                  return module.startTapClick(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["c"]);
+                  return module.startTapClick(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["c"]);
                 });
               }
 
-              if (_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["c"].getBoolean('statusTap', isHybrid)) {
+              if (_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["c"].getBoolean('statusTap', isHybrid)) {
                 __webpack_require__.e(
-                /*! import() | status-tap-6a77b957-js */
-                "status-tap-6a77b957-js").then(__webpack_require__.bind(null,
-                /*! ./status-tap-6a77b957.js */
-                "./node_modules/@ionic/core/dist/esm/status-tap-6a77b957.js")).then(function (module) {
+                /*! import() | status-tap-171795fe-js */
+                "status-tap-171795fe-js").then(__webpack_require__.bind(null,
+                /*! ./status-tap-171795fe.js */
+                "./node_modules/@ionic/core/dist/esm/status-tap-171795fe.js")).then(function (module) {
                   return module.startStatusTap();
                 });
               }
 
-              if (_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["c"].getBoolean('inputShims', needInputShims())) {
+              if (_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["c"].getBoolean('inputShims', needInputShims())) {
                 __webpack_require__.e(
-                /*! import() | input-shims-77712174-js */
-                "input-shims-77712174-js").then(__webpack_require__.bind(null,
-                /*! ./input-shims-77712174.js */
-                "./node_modules/@ionic/core/dist/esm/input-shims-77712174.js")).then(function (module) {
-                  return module.startInputShims(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["c"]);
+                /*! import() | input-shims-d4609e0d-js */
+                "input-shims-d4609e0d-js").then(__webpack_require__.bind(null,
+                /*! ./input-shims-d4609e0d.js */
+                "./node_modules/@ionic/core/dist/esm/input-shims-d4609e0d.js")).then(function (module) {
+                  return module.startInputShims(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["c"]);
                 });
               }
 
-              if (_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["c"].getBoolean('hardwareBackButton', isHybrid)) {
+              if (_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["c"].getBoolean('hardwareBackButton', isHybrid)) {
                 Promise.resolve().then(__webpack_require__.bind(null,
                 /*! ./hardware-back-button-7b6ede21.js */
                 "./node_modules/@ionic/core/dist/esm/hardware-back-button-7b6ede21.js")).then(function (module) {
@@ -171,10 +171,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
               if (typeof window !== 'undefined') {
                 __webpack_require__.e(
-                /*! import() | index-120c8c20-js */
-                "index-120c8c20-js").then(__webpack_require__.bind(null,
-                /*! ./index-120c8c20.js */
-                "./node_modules/@ionic/core/dist/esm/index-120c8c20.js")).then(function (module) {
+                /*! import() | keyboard-a2b5e51d-js */
+                "keyboard-a2b5e51d-js").then(__webpack_require__.bind(null,
+                /*! ./keyboard-a2b5e51d.js */
+                "./node_modules/@ionic/core/dist/esm/keyboard-a2b5e51d.js")).then(function (module) {
                   return module.startKeyboardAssist(window);
                 });
               }
@@ -194,15 +194,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function render() {
           var _class;
 
-          var mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
-            "class": (_class = {}, _defineProperty(_class, mode, true), _defineProperty(_class, 'ion-page', true), _defineProperty(_class, 'force-statusbar-padding', _ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["c"].getBoolean('_forceStatusbarPadding')), _class)
+          var mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
+            "class": (_class = {}, _defineProperty(_class, mode, true), _defineProperty(_class, 'ion-page', true), _defineProperty(_class, 'force-statusbar-padding', _ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["c"].getBoolean('_forceStatusbarPadding')), _class)
           });
         }
       }, {
         key: "el",
         get: function get() {
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
         }
       }]);
 
@@ -210,7 +210,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     }();
 
     var needInputShims = function needInputShims() {
-      return Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["i"])(window, 'ios') && Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["i"])(window, 'mobile');
+      return Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["i"])(window, 'ios') && Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["i"])(window, 'mobile');
     };
 
     var rIC = function rIC(callback) {
@@ -229,7 +229,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       function Buttons(hostRef) {
         _classCallCheck(this, Buttons);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
         /**
          * If true, buttons will disappear when its
          * parent toolbar has fully collapsed if the toolbar
@@ -251,8 +251,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function render() {
           var _class2;
 
-          var mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
+          var mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
             "class": (_class2 = {}, _defineProperty(_class2, mode, true), _defineProperty(_class2, 'buttons-collapse', this.collapse), _class2)
           });
         }
@@ -269,12 +269,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       md: buttonsMdCss
     };
     var contentCss = ":host{--background:var(--ion-background-color, #fff);--color:var(--ion-text-color, #000);--padding-top:0px;--padding-bottom:0px;--padding-start:0px;--padding-end:0px;--keyboard-offset:0px;--offset-top:0px;--offset-bottom:0px;--overflow:auto;display:block;position:relative;-ms-flex:1;flex:1;width:100%;height:100%;margin:0 !important;padding:0 !important;font-family:var(--ion-font-family, inherit);contain:size style}:host(.ion-color) .inner-scroll{background:var(--ion-color-base);color:var(--ion-color-contrast)}:host(.outer-content){--background:var(--ion-color-step-50, #f2f2f2)}#background-content{left:0px;right:0px;top:calc(var(--offset-top) * -1);bottom:calc(var(--offset-bottom) * -1);position:absolute;background:var(--background)}.inner-scroll{left:0px;right:0px;top:calc(var(--offset-top) * -1);bottom:calc(var(--offset-bottom) * -1);padding-left:var(--padding-start);padding-right:var(--padding-end);padding-top:calc(var(--padding-top) + var(--offset-top));padding-bottom:calc(var(--padding-bottom) + var(--keyboard-offset) + var(--offset-bottom));position:absolute;color:var(--color);-webkit-box-sizing:border-box;box-sizing:border-box;overflow:hidden}@supports ((-webkit-margin-start: 0) or (margin-inline-start: 0)) or (-webkit-margin-start: 0){.inner-scroll{padding-left:unset;padding-right:unset;-webkit-padding-start:var(--padding-start);padding-inline-start:var(--padding-start);-webkit-padding-end:var(--padding-end);padding-inline-end:var(--padding-end)}}.scroll-y,.scroll-x{-webkit-overflow-scrolling:touch;will-change:scroll-position}.scroll-y{-ms-touch-action:pan-y;touch-action:pan-y;overflow-y:var(--overflow);overscroll-behavior-y:contain}.scroll-x{-ms-touch-action:pan-x;touch-action:pan-x;overflow-x:var(--overflow);overscroll-behavior-x:contain}.scroll-x.scroll-y{-ms-touch-action:auto;touch-action:auto}.overscroll::before,.overscroll::after{position:absolute;width:1px;height:1px;content:\"\"}.overscroll::before{bottom:-1px}.overscroll::after{top:-1px}:host(.content-sizing){contain:none}:host(.content-sizing) .inner-scroll{position:relative}.transition-effect{display:none;position:absolute;left:-100%;width:100%;height:100vh;opacity:0;pointer-events:none}.transition-cover{position:absolute;right:0;width:100%;height:100%;background:black;opacity:0.1}.transition-shadow{display:block;position:absolute;right:0;width:10px;height:100%;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAgCAYAAAAIXrg4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTE3MDgzRkQ5QTkyMTFFOUEwNzQ5MkJFREE1NUY2MjQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTE3MDgzRkU5QTkyMTFFOUEwNzQ5MkJFREE1NUY2MjQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxMTcwODNGQjlBOTIxMUU5QTA3NDkyQkVEQTU1RjYyNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxMTcwODNGQzlBOTIxMUU5QTA3NDkyQkVEQTU1RjYyNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PmePEuQAAABNSURBVHjaYvz//z8DIxAwMDAwATGMhmFmPDQuOSZks0AMmoJBaQHjkPfB0Lfg/2gQjVow+HPy/yHvg9GiYjQfjMbBqAWjFgy/4hogwADYqwdzxy5BuwAAAABJRU5ErkJggg==);background-repeat:repeat-y;background-size:10px 16px}::slotted([slot=fixed]){position:absolute}";
+    /**
+     * @slot - Content is placed in the scrollable area if provided without a slot.
+     * @slot fixed - Should be used for fixed content that should not scroll.
+     *
+     * @part background - The background of the content.
+     * @part scroll - The scrollable container of the content.
+     */
 
     var Content = /*#__PURE__*/function () {
       function Content(hostRef) {
         _classCallCheck(this, Content);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
         this.isScrolling = false;
         this.lastScroll = 0;
         this.queued = false;
@@ -324,9 +331,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
          */
 
         this.scrollEvents = false;
-        this.ionScrollStart = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionScrollStart", 7);
-        this.ionScroll = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionScroll", 7);
-        this.ionScrollEnd = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionScrollEnd", 7);
+        this.ionScrollStart = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionScrollStart", 7);
+        this.ionScroll = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionScroll", 7);
+        this.ionScrollEnd = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionScrollEnd", 7);
       }
 
       _createClass(Content, [{
@@ -351,8 +358,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         key: "shouldForceOverscroll",
         value: function shouldForceOverscroll() {
           var forceOverscroll = this.forceOverscroll;
-          var mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
-          return forceOverscroll === undefined ? mode === 'ios' && Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["i"])('ios') : forceOverscroll;
+          var mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+          return forceOverscroll === undefined ? mode === 'ios' && Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["i"])('ios') : forceOverscroll;
         }
       }, {
         key: "resize",
@@ -360,12 +367,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           var _this = this;
 
           if (this.fullscreen) {
-            Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["f"])(function () {
+            Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["d"])(function () {
               return _this.readDimensions();
             });
           } else if (this.cTop !== 0 || this.cBottom !== 0) {
             this.cTop = this.cBottom = 0;
-            Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["i"])(this);
+            Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["f"])(this);
           }
         }
       }, {
@@ -379,7 +386,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           if (dirty) {
             this.cTop = top;
             this.cBottom = bottom;
-            Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["i"])(this);
+            Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["f"])(this);
           }
         }
       }, {
@@ -397,7 +404,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           if (!this.queued && this.scrollEvents) {
             this.queued = true;
-            Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["f"])(function (ts) {
+            Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["d"])(function (ts) {
               _this2.queued = false;
               _this2.detail.event = ev;
               updateScrollDetail(_this2.detail, _this2.scrollEl, ts, shouldStart);
@@ -598,22 +605,22 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           var scrollX = this.scrollX,
               scrollY = this.scrollY;
-          var mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+          var mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
           var forceOverscroll = this.shouldForceOverscroll();
 
-          var transitionShadow = mode === 'ios' && _ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["c"].getBoolean('experimentalTransitionShadow', true);
+          var transitionShadow = mode === 'ios' && _ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["c"].getBoolean('experimentalTransitionShadow', true);
 
           this.resize();
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
-            "class": Object.assign(Object.assign({}, Object(_theme_c2dc54d9_js__WEBPACK_IMPORTED_MODULE_5__["c"])(this.color)), (_Object$assign = {}, _defineProperty(_Object$assign, mode, true), _defineProperty(_Object$assign, 'content-sizing', Object(_theme_c2dc54d9_js__WEBPACK_IMPORTED_MODULE_5__["h"])('ion-popover', this.el)), _defineProperty(_Object$assign, 'overscroll', forceOverscroll), _Object$assign)),
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
+            "class": Object.assign(Object.assign({}, Object(_theme_3f0b0c04_js__WEBPACK_IMPORTED_MODULE_5__["c"])(this.color)), (_Object$assign = {}, _defineProperty(_Object$assign, mode, true), _defineProperty(_Object$assign, 'content-sizing', Object(_theme_3f0b0c04_js__WEBPACK_IMPORTED_MODULE_5__["h"])('ion-popover', this.el)), _defineProperty(_Object$assign, 'overscroll', forceOverscroll), _Object$assign)),
             style: {
               '--offset-top': "".concat(this.cTop, "px"),
               '--offset-bottom': "".concat(this.cBottom, "px")
             }
-          }, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
+          }, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
             id: "background-content",
             part: "background"
-          }), Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("main", {
+          }), Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("main", {
             "class": {
               'inner-scroll': true,
               'scroll-x': scrollX,
@@ -627,20 +634,20 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               return _this4.onScroll(ev);
             } : undefined,
             part: "scroll"
-          }, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)), transitionShadow ? Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
+          }, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)), transitionShadow ? Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
             "class": "transition-effect"
-          }, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
+          }, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
             "class": "transition-cover"
-          }), Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
+          }), Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
             "class": "transition-shadow"
-          })) : null, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", {
+          })) : null, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", {
             name: "fixed"
           }));
         }
       }, {
         key: "el",
         get: function get() {
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
         }
       }]);
 
@@ -711,12 +718,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     Content.style = contentCss;
     var footerIosCss = "ion-footer{display:block;position:relative;-ms-flex-order:1;order:1;width:100%;z-index:10}ion-footer ion-toolbar:last-of-type{padding-bottom:var(--ion-safe-area-bottom, 0)}.footer-ios ion-toolbar:first-of-type{--border-width:0.55px 0 0}@supports ((-webkit-backdrop-filter: blur(0)) or (backdrop-filter: blur(0))){.footer-background{left:0;right:0;top:0;bottom:0;position:absolute;-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px)}.footer-translucent-ios ion-toolbar{--opacity:.8}}.footer-ios.ion-no-border ion-toolbar:first-of-type{--border-width:0}";
     var footerMdCss = "ion-footer{display:block;position:relative;-ms-flex-order:1;order:1;width:100%;z-index:10}ion-footer ion-toolbar:last-of-type{padding-bottom:var(--ion-safe-area-bottom, 0)}.footer-md::before{left:0;top:-2px;bottom:auto;background-position:left 0 top 0;position:absolute;width:100%;height:2px;background-image:url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAHBAMAAADzDtBxAAAAD1BMVEUAAAAAAAAAAAAAAAAAAABPDueNAAAABXRSTlMUCS0gBIh/TXEAAAAaSURBVAjXYxCEAgY4UIICBmMogMsgFLtAAQCNSwXZKOdPxgAAAABJRU5ErkJggg==\");background-repeat:repeat-x;content:\"\"}[dir=rtl] .footer-md::before,:host-context([dir=rtl]) .footer-md::before{left:unset;right:unset;right:0}[dir=rtl] .footer-md::before,:host-context([dir=rtl]) .footer-md::before{background-position:right 0 top 0}.footer-md.ion-no-border::before{display:none}";
+    /**
+     * @virtualProp {"ios" | "md"} mode - The mode determines which platform styles to use.
+     */
 
     var Footer = /*#__PURE__*/function () {
       function Footer(hostRef) {
         _classCallCheck(this, Footer);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
         /**
          * If `true`, the footer will be translucent.
          * Only applies when the mode is `"ios"` and the device supports
@@ -734,14 +744,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function render() {
           var _class3;
 
-          var mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+          var mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
           var translucent = this.translucent;
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
             role: "contentinfo",
             "class": (_class3 = {}, _defineProperty(_class3, mode, true), _defineProperty(_class3, "footer-".concat(mode), true), _defineProperty(_class3, "footer-translucent", translucent), _defineProperty(_class3, "footer-translucent-".concat(mode), translucent), _class3)
-          }, mode === 'ios' && translucent && Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
+          }, mode === 'ios' && translucent && Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
             "class": "footer-background"
-          }), Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null));
+          }), Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null));
         }
       }]);
 
@@ -793,14 +803,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     };
 
     var handleContentScroll = function handleContentScroll(scrollEl, scrollHeaderIndex, contentEl) {
-      Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["f"])(function () {
+      Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["d"])(function () {
         var scrollTop = scrollEl.scrollTop;
         var scale = Object(_helpers_5c745fbd_js__WEBPACK_IMPORTED_MODULE_2__["c"])(1, 1 + -scrollTop / 500, 1.1); // Native refresher should not cause titles to scale
 
         var nativeRefresher = contentEl.querySelector('ion-refresher.refresher-native');
 
         if (nativeRefresher === null) {
-          Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["w"])(function () {
+          Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["w"])(function () {
             scaleLargeTitles(scrollHeaderIndex.toolbars, scale);
           });
         }
@@ -840,7 +850,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
     var handleToolbarIntersection = function handleToolbarIntersection(ev, mainHeaderIndex, scrollHeaderIndex) {
-      Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["w"])(function () {
+      Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["w"])(function () {
         handleToolbarBorderIntersection(ev, mainHeaderIndex);
         var event = ev[0];
         var intersection = event.intersectionRect;
@@ -908,12 +918,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var headerIosCss = "ion-header{display:block;position:relative;-ms-flex-order:-1;order:-1;width:100%;z-index:10}ion-header ion-toolbar:first-of-type{padding-top:var(--ion-safe-area-top, 0)}.header-ios ion-toolbar:last-of-type{--border-width:0 0 0.55px}@supports ((-webkit-backdrop-filter: blur(0)) or (backdrop-filter: blur(0))){.header-background{left:0;right:0;top:0;bottom:0;position:absolute;-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px)}.header-translucent-ios ion-toolbar{--opacity:.8}.header-collapse-condense-inactive .header-background{-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px)}}.header-ios.ion-no-border ion-toolbar:last-of-type{--border-width:0}.header-collapse-condense{z-index:9}.header-collapse-condense ion-toolbar{position:-webkit-sticky;position:sticky;top:0}.header-collapse-condense ion-toolbar:first-of-type{padding-top:7px;z-index:1}.header-collapse-condense ion-toolbar{--background:var(--ion-background-color, #fff);z-index:0}.header-collapse-condense ion-toolbar ion-searchbar{height:48px;padding-top:0px;padding-bottom:13px}.header-collapse-main ion-toolbar.in-toolbar ion-title,.header-collapse-main ion-toolbar.in-toolbar ion-buttons{-webkit-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out}.header-collapse-condense-inactive:not(.header-collapse-condense) ion-toolbar.in-toolbar ion-title,.header-collapse-condense-inactive:not(.header-collapse-condense) ion-toolbar.in-toolbar ion-buttons.buttons-collapse{opacity:0;pointer-events:none}.header-collapse-condense-inactive.header-collapse-condense ion-toolbar.in-toolbar ion-title,.header-collapse-condense-inactive.header-collapse-condense ion-toolbar.in-toolbar ion-buttons.buttons-collapse{visibility:hidden}";
     var headerMdCss = "ion-header{display:block;position:relative;-ms-flex-order:-1;order:-1;width:100%;z-index:10}ion-header ion-toolbar:first-of-type{padding-top:var(--ion-safe-area-top, 0)}.header-md::after{left:0;bottom:-5px;background-position:left 0 top -2px;position:absolute;width:100%;height:5px;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAHBAMAAADzDtBxAAAAD1BMVEUAAAAAAAAAAAAAAAAAAABPDueNAAAABXRSTlMUCS0gBIh/TXEAAAAaSURBVAjXYxCEAgY4UIICBmMogMsgFLtAAQCNSwXZKOdPxgAAAABJRU5ErkJggg==);background-repeat:repeat-x;content:\"\"}[dir=rtl] .header-md::after,:host-context([dir=rtl]) .header-md::after{left:unset;right:unset;right:0}[dir=rtl] .header-md::after,:host-context([dir=rtl]) .header-md::after{background-position:right 0 top -2px}.header-collapse-condense{display:none}.header-md.ion-no-border::after{display:none}";
+    /**
+     * @virtualProp {"ios" | "md"} mode - The mode determines which platform styles to use.
+     */
 
     var Header = /*#__PURE__*/function () {
       function Header(hostRef) {
         _classCallCheck(this, Header);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
         this.collapsibleHeaderInitialized = false;
         /**
          * If `true`, the header will be translucent.
@@ -993,7 +1006,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                   case 0:
                     // Determine if the header can collapse
                     hasCollapse = this.collapse === 'condense';
-                    canCollapse = hasCollapse && Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this) === 'ios' ? hasCollapse : false;
+                    canCollapse = hasCollapse && Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this) === 'ios' ? hasCollapse : false;
 
                     if (!(!canCollapse && this.collapsibleHeaderInitialized)) {
                       _context4.next = 6;
@@ -1001,21 +1014,27 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                     }
 
                     this.destroyCollapsibleHeader();
-                    _context4.next = 11;
+                    _context4.next = 12;
                     break;
 
                   case 6:
                     if (!(canCollapse && !this.collapsibleHeaderInitialized)) {
-                      _context4.next = 11;
+                      _context4.next = 12;
                       break;
                     }
 
                     pageEl = this.el.closest('ion-app,ion-page,.ion-page,page-inner');
-                    contentEl = pageEl ? pageEl.querySelector('ion-content') : null;
-                    _context4.next = 11;
+                    contentEl = pageEl ? pageEl.querySelector('ion-content') : null; // Cloned elements are always needed in iOS transition
+
+                    Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["w"])(function () {
+                      var title = cloneElement('ion-title');
+                      title.size = 'large';
+                      cloneElement('ion-back-button');
+                    });
+                    _context4.next = 12;
                     return this.setupCollapsibleHeader(contentEl, pageEl);
 
-                  case 11:
+                  case 12:
                   case "end":
                     return _context4.stop();
                 }
@@ -1135,11 +1154,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                     };
 
                     this.scrollEl.addEventListener('scroll', this.contentScrollCallback);
-                    Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["w"])(function () {
-                      var title = cloneElement('ion-title');
-                      title.size = 'large';
-                      cloneElement('ion-back-button');
-
+                    Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["w"])(function () {
                       if (_this5.collapsibleMainHeader !== undefined) {
                         _this5.collapsibleMainHeader.classList.add('header-collapse-main');
                       }
@@ -1166,19 +1181,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           var _class4;
 
           var translucent = this.translucent;
-          var mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+          var mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
           var collapse = this.collapse || 'none';
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
             role: "banner",
             "class": (_class4 = {}, _defineProperty(_class4, mode, true), _defineProperty(_class4, "header-".concat(mode), true), _defineProperty(_class4, "header-translucent", this.translucent), _defineProperty(_class4, "header-collapse-".concat(collapse), true), _defineProperty(_class4, "header-translucent-".concat(mode), this.translucent), _class4)
-          }, mode === 'ios' && translucent && Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
+          }, mode === 'ios' && translucent && Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
             "class": "header-background"
-          }), Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null));
+          }), Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null));
         }
       }, {
         key: "el",
         get: function get() {
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
         }
       }]);
 
@@ -1198,21 +1213,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       function RouterOutlet(hostRef) {
         _classCallCheck(this, RouterOutlet);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
         this.animationEnabled = true;
         /**
          * The mode determines which platform styles to use.
          */
 
-        this.mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+        this.mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
         /**
          * If `true`, the router-outlet should animate the transition of components.
          */
 
         this.animated = true;
-        this.ionNavWillLoad = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionNavWillLoad", 7);
-        this.ionNavWillChange = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionNavWillChange", 3);
-        this.ionNavDidChange = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionNavDidChange", 3);
+        this.ionNavWillLoad = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionNavWillLoad", 7);
+        this.ionNavWillChange = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionNavWillChange", 3);
+        this.ionNavDidChange = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionNavDidChange", 3);
       }
 
       _createClass(RouterOutlet, [{
@@ -1234,10 +1249,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                   case 0:
                     _context6.next = 2;
                     return __webpack_require__.e(
-                    /*! import() | swipe-back-7b4b8b66-js */
-                    "swipe-back-7b4b8b66-js").then(__webpack_require__.bind(null,
-                    /*! ./swipe-back-7b4b8b66.js */
-                    "./node_modules/@ionic/core/dist/esm/swipe-back-7b4b8b66.js"));
+                    /*! import() | swipe-back-0a6a44c8-js */
+                    "swipe-back-0a6a44c8-js").then(__webpack_require__.bind(null,
+                    /*! ./swipe-back-0a6a44c8.js */
+                    "./node_modules/@ionic/core/dist/esm/swipe-back-0a6a44c8.js"));
 
                   case 2:
                     this.gesture = _context6.sent.createSwipeBackGesture(this.el, function () {
@@ -1365,7 +1380,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "setRouteId",
         value: function () {
-          var _setRouteId = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee8(id, params, direction) {
+          var _setRouteId = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee8(id, params, direction, animation) {
             var changed;
             return regeneratorRuntime.wrap(function _callee8$(_context8) {
               while (1) {
@@ -1374,7 +1389,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                     _context8.next = 2;
                     return this.setRoot(id, params, {
                       duration: direction === 'root' ? 0 : undefined,
-                      direction: direction === 'back' ? 'back' : 'forward'
+                      direction: direction === 'back' ? 'back' : 'forward',
+                      animationBuilder: animation
                     });
 
                   case 2:
@@ -1392,7 +1408,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             }, _callee8, this);
           }));
 
-          function setRouteId(_x8, _x9, _x10) {
+          function setRouteId(_x8, _x9, _x10, _x11) {
             return _setRouteId.apply(this, arguments);
           }
 
@@ -1474,7 +1490,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             }, _callee10, this);
           }));
 
-          function setRoot(_x11, _x12, _x13) {
+          function setRoot(_x12, _x13, _x14) {
             return _setRoot.apply(this, arguments);
           }
 
@@ -1509,20 +1525,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                     // emit nav will change event
                     this.ionNavWillChange.emit();
                     el = this.el, mode = this.mode;
-                    animated = this.animated && _ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["c"].getBoolean('animated', true);
-                    animationBuilder = this.animation || opts.animationBuilder || _ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["c"].get('navAnimation');
+                    animated = this.animated && _ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["c"].getBoolean('animated', true);
+                    animationBuilder = this.animation || opts.animationBuilder || _ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["c"].get('navAnimation');
                     _context11.next = 9;
-                    return Object(_index_b60886e1_js__WEBPACK_IMPORTED_MODULE_3__["t"])(Object.assign({
+                    return Object(_index_66edb21f_js__WEBPACK_IMPORTED_MODULE_3__["t"])(Object.assign(Object.assign({
                       mode: mode,
                       animated: animated,
-                      animationBuilder: animationBuilder,
                       enteringEl: enteringEl,
                       leavingEl: leavingEl,
                       baseEl: el,
                       progressCallback: opts.progressAnimation ? function (ani) {
                         return _this7.ani = ani;
                       } : undefined
-                    }, opts));
+                    }, opts), {
+                      animationBuilder: animationBuilder
+                    }));
 
                   case 9:
                     // emit nav changed event
@@ -1537,7 +1554,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             }, _callee11, this);
           }));
 
-          function transition(_x14, _x15) {
+          function transition(_x15, _x16) {
             return _transition.apply(this, arguments);
           }
 
@@ -1585,12 +1602,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "render",
         value: function render() {
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null);
         }
       }, {
         key: "el",
         get: function get() {
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
         }
       }], [{
         key: "watchers",
@@ -1612,8 +1629,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       function ToolbarTitle(hostRef) {
         _classCallCheck(this, ToolbarTitle);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
-        this.ionStyle = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionStyle", 7);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        this.ionStyle = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionStyle", 7);
       }
 
       _createClass(ToolbarTitle, [{
@@ -1642,18 +1659,18 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function render() {
           var _Object$assign2;
 
-          var mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+          var mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
           var size = this.getSize();
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
-            "class": Object.assign((_Object$assign2 = {}, _defineProperty(_Object$assign2, mode, true), _defineProperty(_Object$assign2, "title-".concat(size), true), _Object$assign2), Object(_theme_c2dc54d9_js__WEBPACK_IMPORTED_MODULE_5__["c"])(this.color))
-          }, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
+            "class": Object.assign((_Object$assign2 = {}, _defineProperty(_Object$assign2, mode, true), _defineProperty(_Object$assign2, "title-".concat(size), true), _Object$assign2), Object(_theme_3f0b0c04_js__WEBPACK_IMPORTED_MODULE_5__["c"])(this.color))
+          }, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
             "class": "toolbar-title"
-          }, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)));
+          }, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)));
         }
       }, {
         key: "el",
         get: function get() {
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
         }
       }], [{
         key: "watchers",
@@ -1676,12 +1693,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     };
     var toolbarIosCss = ":host{--border-width:0;--border-style:solid;--opacity:1;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;padding-left:var(--ion-safe-area-left);padding-right:var(--ion-safe-area-right);display:block;position:relative;width:100%;color:var(--color);font-family:var(--ion-font-family, inherit);contain:content;z-index:10;-webkit-box-sizing:border-box;box-sizing:border-box}@supports ((-webkit-margin-start: 0) or (margin-inline-start: 0)) or (-webkit-margin-start: 0){:host{padding-left:unset;padding-right:unset;-webkit-padding-start:var(--ion-safe-area-left);padding-inline-start:var(--ion-safe-area-left);-webkit-padding-end:var(--ion-safe-area-right);padding-inline-end:var(--ion-safe-area-right)}}:host(.ion-color){color:var(--ion-color-contrast)}:host(.ion-color) .toolbar-background{background:var(--ion-color-base)}.toolbar-container{padding-left:var(--padding-start);padding-right:var(--padding-end);padding-top:var(--padding-top);padding-bottom:var(--padding-bottom);display:-ms-flexbox;display:flex;position:relative;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between;width:100%;min-height:var(--min-height);contain:content;overflow:hidden;z-index:10;-webkit-box-sizing:border-box;box-sizing:border-box}@supports ((-webkit-margin-start: 0) or (margin-inline-start: 0)) or (-webkit-margin-start: 0){.toolbar-container{padding-left:unset;padding-right:unset;-webkit-padding-start:var(--padding-start);padding-inline-start:var(--padding-start);-webkit-padding-end:var(--padding-end);padding-inline-end:var(--padding-end)}}.toolbar-background{left:0;right:0;top:0;bottom:0;position:absolute;-webkit-transform:translateZ(0);transform:translateZ(0);border-width:var(--border-width);border-style:var(--border-style);border-color:var(--border-color);background:var(--background);contain:strict;opacity:var(--opacity);z-index:-1;pointer-events:none}::slotted(ion-progress-bar){left:0;right:0;bottom:0;position:absolute}:host{--background:var(--ion-toolbar-background, var(--ion-color-step-50, #fff));--color:var(--ion-toolbar-color, var(--ion-text-color, #000));--border-color:var(--ion-toolbar-border-color, var(--ion-border-color, var(--ion-color-step-150, rgba(0, 0, 0, 0.2))));--padding-top:3px;--padding-bottom:3px;--padding-start:4px;--padding-end:4px;--min-height:44px}.toolbar-content{-ms-flex:1;flex:1;-ms-flex-order:4;order:4;min-width:0}:host(.toolbar-segment) .toolbar-content{display:-ms-inline-flexbox;display:inline-flex}:host(.toolbar-searchbar) .toolbar-container{padding-top:0;padding-bottom:0}:host(.toolbar-searchbar) ::slotted(*){-ms-flex-item-align:start;align-self:start}:host(.toolbar-searchbar) ::slotted(ion-chip){margin-top:3px}:host(.toolbar-searchbar) ::slotted(ion-back-button){height:38px}::slotted(ion-buttons){min-height:38px}::slotted([slot=start]){-ms-flex-order:2;order:2}::slotted([slot=secondary]){-ms-flex-order:3;order:3}::slotted([slot=primary]){-ms-flex-order:5;order:5;text-align:end}::slotted([slot=end]){-ms-flex-order:6;order:6;text-align:end}:host(.toolbar-title-large) .toolbar-container{-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-align:start;align-items:flex-start}:host(.toolbar-title-large) .toolbar-content ion-title{-ms-flex:1;flex:1;-ms-flex-order:8;order:8;min-width:100%}";
     var toolbarMdCss = ":host{--border-width:0;--border-style:solid;--opacity:1;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;padding-left:var(--ion-safe-area-left);padding-right:var(--ion-safe-area-right);display:block;position:relative;width:100%;color:var(--color);font-family:var(--ion-font-family, inherit);contain:content;z-index:10;-webkit-box-sizing:border-box;box-sizing:border-box}@supports ((-webkit-margin-start: 0) or (margin-inline-start: 0)) or (-webkit-margin-start: 0){:host{padding-left:unset;padding-right:unset;-webkit-padding-start:var(--ion-safe-area-left);padding-inline-start:var(--ion-safe-area-left);-webkit-padding-end:var(--ion-safe-area-right);padding-inline-end:var(--ion-safe-area-right)}}:host(.ion-color){color:var(--ion-color-contrast)}:host(.ion-color) .toolbar-background{background:var(--ion-color-base)}.toolbar-container{padding-left:var(--padding-start);padding-right:var(--padding-end);padding-top:var(--padding-top);padding-bottom:var(--padding-bottom);display:-ms-flexbox;display:flex;position:relative;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between;width:100%;min-height:var(--min-height);contain:content;overflow:hidden;z-index:10;-webkit-box-sizing:border-box;box-sizing:border-box}@supports ((-webkit-margin-start: 0) or (margin-inline-start: 0)) or (-webkit-margin-start: 0){.toolbar-container{padding-left:unset;padding-right:unset;-webkit-padding-start:var(--padding-start);padding-inline-start:var(--padding-start);-webkit-padding-end:var(--padding-end);padding-inline-end:var(--padding-end)}}.toolbar-background{left:0;right:0;top:0;bottom:0;position:absolute;-webkit-transform:translateZ(0);transform:translateZ(0);border-width:var(--border-width);border-style:var(--border-style);border-color:var(--border-color);background:var(--background);contain:strict;opacity:var(--opacity);z-index:-1;pointer-events:none}::slotted(ion-progress-bar){left:0;right:0;bottom:0;position:absolute}:host{--background:var(--ion-toolbar-background, var(--ion-background-color, #fff));--color:var(--ion-toolbar-color, var(--ion-text-color, #424242));--border-color:var(--ion-toolbar-border-color, var(--ion-border-color, var(--ion-color-step-150, #c1c4cd)));--padding-top:0;--padding-bottom:0;--padding-start:0;--padding-end:0;--min-height:56px}.toolbar-content{-ms-flex:1;flex:1;-ms-flex-order:3;order:3;min-width:0;max-width:100%}::slotted(ion-segment){min-height:var(--min-height)}::slotted(.buttons-first-slot){margin-left:4px}@supports ((-webkit-margin-start: 0) or (margin-inline-start: 0)) or (-webkit-margin-start: 0){::slotted(.buttons-first-slot){margin-left:unset;-webkit-margin-start:4px;margin-inline-start:4px}}::slotted(.buttons-last-slot){margin-right:4px}@supports ((-webkit-margin-start: 0) or (margin-inline-start: 0)) or (-webkit-margin-start: 0){::slotted(.buttons-last-slot){margin-right:unset;-webkit-margin-end:4px;margin-inline-end:4px}}::slotted([slot=start]){-ms-flex-order:2;order:2}::slotted([slot=secondary]){-ms-flex-order:4;order:4}::slotted([slot=primary]){-ms-flex-order:5;order:5;text-align:end}::slotted([slot=end]){-ms-flex-order:6;order:6;text-align:end}";
+    /**
+     * @virtualProp {"ios" | "md"} mode - The mode determines which platform styles to use.
+     *
+     * @slot - Content is placed between the named slots if provided without a slot.
+     * @slot start - Content is placed to the left of the toolbar text in LTR, and to the right in RTL.
+     * @slot secondary - Content is placed to the left of the toolbar text in `ios` mode, and directly to the right in `md` mode.
+     * @slot primary - Content is placed to the right of the toolbar text in `ios` mode, and to the far right in `md` mode.
+     * @slot end - Content is placed to the right of the toolbar text in LTR, and to the left in RTL.
+     */
 
     var Toolbar = /*#__PURE__*/function () {
       function Toolbar(hostRef) {
         _classCallCheck(this, Toolbar);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
         this.childrenStyles = new Map();
       }
 
@@ -1734,41 +1760,41 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           if (hasStyleChange) {
             this.childrenStyles.set(tagName, newStyles);
-            Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["i"])(this);
+            Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["f"])(this);
           }
         }
       }, {
         key: "render",
         value: function render() {
-          var mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+          var mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
           var childStyles = {};
           this.childrenStyles.forEach(function (value) {
             Object.assign(childStyles, value);
           });
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
             "class": Object.assign(Object.assign(_defineProperty({
-              'in-toolbar': Object(_theme_c2dc54d9_js__WEBPACK_IMPORTED_MODULE_5__["h"])('ion-toolbar', this.el)
-            }, mode, true), childStyles), Object(_theme_c2dc54d9_js__WEBPACK_IMPORTED_MODULE_5__["c"])(this.color))
-          }, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
+              'in-toolbar': Object(_theme_3f0b0c04_js__WEBPACK_IMPORTED_MODULE_5__["h"])('ion-toolbar', this.el)
+            }, mode, true), childStyles), Object(_theme_3f0b0c04_js__WEBPACK_IMPORTED_MODULE_5__["c"])(this.color))
+          }, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
             "class": "toolbar-background"
-          }), Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
+          }), Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
             "class": "toolbar-container"
-          }, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", {
+          }, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", {
             name: "start"
-          }), Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", {
+          }), Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", {
             name: "secondary"
-          }), Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
+          }), Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
             "class": "toolbar-content"
-          }, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)), Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", {
+          }, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)), Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", {
             name: "primary"
-          }), Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", {
+          }), Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", {
             name: "end"
           })));
         }
       }, {
         key: "el",
         get: function get() {
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
         }
       }]);
 

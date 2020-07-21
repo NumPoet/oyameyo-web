@@ -1,14 +1,14 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["swipe-back-7b4b8b66-js"], {
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["swipe-back-0a6a44c8-js"], {
   /***/
-  "./node_modules/@ionic/core/dist/esm/swipe-back-7b4b8b66.js":
+  "./node_modules/@ionic/core/dist/esm/swipe-back-0a6a44c8.js":
   /*!******************************************************************!*\
-    !*** ./node_modules/@ionic/core/dist/esm/swipe-back-7b4b8b66.js ***!
+    !*** ./node_modules/@ionic/core/dist/esm/swipe-back-0a6a44c8.js ***!
     \******************************************************************/
 
   /*! exports provided: createSwipeBackGesture */
 
   /***/
-  function node_modulesIonicCoreDistEsmSwipeBack7b4b8b66Js(module, __webpack_exports__, __webpack_require__) {
+  function node_modulesIonicCoreDistEsmSwipeBack0a6a44c8Js(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -27,9 +27,15 @@
     /* harmony import */
 
 
-    var _index_6f647ec8_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! ./index-6f647ec8.js */
-    "./node_modules/@ionic/core/dist/esm/index-6f647ec8.js");
+    var _gesture_controller_89173521_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./gesture-controller-89173521.js */
+    "./node_modules/@ionic/core/dist/esm/gesture-controller-89173521.js");
+    /* harmony import */
+
+
+    var _index_eea61379_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ./index-eea61379.js */
+    "./node_modules/@ionic/core/dist/esm/index-eea61379.js");
 
     var createSwipeBackGesture = function createSwipeBackGesture(el, canStartHandler, onStartHandler, onMoveHandler, onEndHandler) {
       var win = el.ownerDocument.defaultView;
@@ -71,7 +77,7 @@
         onEndHandler(shouldComplete, stepValue <= 0 ? 0.01 : Object(_helpers_5c745fbd_js__WEBPACK_IMPORTED_MODULE_0__["c"])(0, stepValue, 0.9999), realDur);
       };
 
-      return Object(_index_6f647ec8_js__WEBPACK_IMPORTED_MODULE_1__["createGesture"])({
+      return Object(_index_eea61379_js__WEBPACK_IMPORTED_MODULE_2__["createGesture"])({
         el: el,
         gestureName: 'goback-swipe',
         gesturePriority: 40,
@@ -86,4 +92,4 @@
 
   }
 }]);
-//# sourceMappingURL=swipe-back-7b4b8b66-js-es5.js.map
+//# sourceMappingURL=swipe-back-0a6a44c8-js-es5.js.map

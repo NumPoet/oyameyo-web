@@ -20,17 +20,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["swiper-bundle-f564f87c-js"], {
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["swiper-bundle-95afeea2-js"], {
   /***/
-  "./node_modules/@ionic/core/dist/esm/swiper.bundle-f564f87c.js":
+  "./node_modules/@ionic/core/dist/esm/swiper.bundle-95afeea2.js":
   /*!*********************************************************************!*\
-    !*** ./node_modules/@ionic/core/dist/esm/swiper.bundle-f564f87c.js ***!
+    !*** ./node_modules/@ionic/core/dist/esm/swiper.bundle-95afeea2.js ***!
     \*********************************************************************/
 
   /*! exports provided: Swiper */
 
   /***/
-  function node_modulesIonicCoreDistEsmSwiperBundleF564f87cJs(module, __webpack_exports__, __webpack_require__) {
+  function node_modulesIonicCoreDistEsmSwiperBundle95afeea2Js(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -41,19 +41,42 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return Swiper;
     });
     /**
-     * SSR Window 1.0.1
+     * SSR Window 2.0.0
      * Better handling for window object in SSR environment
      * https://github.com/nolimits4web/ssr-window
      *
-     * Copyright 2018, Vladimir Kharlampidi
+     * Copyright 2020, Vladimir Kharlampidi
      *
      * Licensed under MIT
      *
-     * Released on: July 18, 2018
+     * Released on: May 12, 2020
      */
 
+    /* eslint-disable no-param-reassign */
 
-    var doc = typeof document === 'undefined' ? {
+
+    function isObject(obj) {
+      return obj !== null && typeof obj === 'object' && 'constructor' in obj && obj.constructor === Object;
+    }
+
+    function extend(target, src) {
+      if (target === void 0) {
+        target = {};
+      }
+
+      if (src === void 0) {
+        src = {};
+      }
+
+      Object.keys(src).forEach(function (key) {
+        if (typeof target[key] === 'undefined') target[key] = src[key];else if (isObject(src[key]) && isObject(target[key]) && Object.keys(src[key]).length > 0) {
+          extend(target[key], src[key]);
+        }
+      });
+    }
+
+    var doc = typeof document !== 'undefined' ? document : {};
+    var ssrDocument = {
       body: {},
       addEventListener: function addEventListener() {},
       removeEventListener: function removeEventListener() {},
@@ -86,18 +109,46 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           }
         };
       },
+      createElementNS: function createElementNS() {
+        return {};
+      },
+      importNode: function importNode() {
+        return null;
+      },
       location: {
-        hash: ''
+        hash: '',
+        host: '',
+        hostname: '',
+        href: '',
+        origin: '',
+        pathname: '',
+        protocol: '',
+        search: ''
       }
-    } : document; // eslint-disable-line
-
-    var win = typeof window === 'undefined' ? {
-      document: doc,
+    };
+    extend(doc, ssrDocument);
+    var win = typeof window !== 'undefined' ? window : {};
+    var ssrWindow = {
+      document: ssrDocument,
       navigator: {
         userAgent: ''
       },
-      location: {},
-      history: {},
+      location: {
+        hash: '',
+        host: '',
+        hostname: '',
+        href: '',
+        origin: '',
+        pathname: '',
+        protocol: '',
+        search: ''
+      },
+      history: {
+        replaceState: function replaceState() {},
+        pushState: function pushState() {},
+        go: function go() {},
+        back: function back() {}
+      },
       CustomEvent: function CustomEvent() {
         return this;
       },
@@ -114,21 +165,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       Date: function Date() {},
       screen: {},
       setTimeout: function setTimeout() {},
-      clearTimeout: function clearTimeout() {}
-    } : window; // eslint-disable-line
-
+      clearTimeout: function clearTimeout() {},
+      matchMedia: function matchMedia() {
+        return {};
+      }
+    };
+    extend(win, ssrWindow);
     /**
-     * Dom7 2.1.3
+     * Dom7 2.1.5
      * Minimalistic JavaScript library for DOM manipulation, with a jQuery-compatible API
      * http://framework7.io/docs/dom.html
      *
-     * Copyright 2019, Vladimir Kharlampidi
+     * Copyright 2020, Vladimir Kharlampidi
      * The iDangero.us
      * http://www.idangero.us/
      *
      * Licensed under MIT
      *
-     * Released on: February 11, 2019
+     * Released on: May 15, 2020
      */
 
     var Dom7 = function Dom7(arr) {
@@ -1001,7 +1055,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return dom;
     }
     /**
-     * Swiper 5.3.7
+     * Swiper 5.4.1
      * Most modern mobile touch slider and framework with hardware accelerated transitions
      * http://swiperjs.com
      *
@@ -1009,7 +1063,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      *
      * Released under the MIT License
      *
-     * Released on: April 10, 2020
+     * Released on: May 20, 2020
      */
 
 
@@ -1177,10 +1231,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var Support = function Support() {
       return {
-        touch: win.Modernizr && win.Modernizr.touch === true || function checkTouch() {
-          return !!(win.navigator.maxTouchPoints > 0 || 'ontouchstart' in win || win.DocumentTouch && doc instanceof win.DocumentTouch);
-        }(),
-        pointerEvents: !!win.PointerEvent && 'maxTouchPoints' in win.navigator && win.navigator.maxTouchPoints > 0,
+        touch: !!('ontouchstart' in win || win.DocumentTouch && doc instanceof win.DocumentTouch),
+        pointerEvents: !!win.PointerEvent && 'maxTouchPoints' in win.navigator && win.navigator.maxTouchPoints >= 0,
         observer: function checkObserver() {
           return 'MutationObserver' in win || 'WebkitMutationObserver' in win;
         }(),
@@ -3209,7 +3261,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         return;
       }
 
-      if (data.isTouchEvent && e.type === 'mousemove') return;
+      if (data.isTouchEvent && e.type !== 'touchmove') return;
       var targetTouch = e.type === 'touchmove' && e.targetTouches && (e.targetTouches[0] || e.changedTouches[0]);
       var pageX = e.type === 'touchmove' ? targetTouch.pageX : e.pageX;
       var pageY = e.type === 'touchmove' ? targetTouch.pageY : e.pageY;
@@ -3304,7 +3356,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
       swiper.allowClick = false;
 
-      if (!params.cssMode) {
+      if (!params.cssMode && e.cancelable) {
         e.preventDefault();
       }
 
@@ -3631,11 +3683,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               if (!swiper || swiper.destroyed || !data.allowMomentumBounce) return;
               swiper.emit('momentumBounce');
               swiper.setTransition(params.speed);
-              swiper.setTranslate(afterBouncePosition);
-              $wrapperEl.transitionEnd(function () {
-                if (!swiper || swiper.destroyed) return;
-                swiper.transitionEnd();
-              });
+              setTimeout(function () {
+                swiper.setTranslate(afterBouncePosition);
+                $wrapperEl.transitionEnd(function () {
+                  if (!swiper || swiper.destroyed) return;
+                  swiper.transitionEnd();
+                });
+              }, 0);
             });
           } else if (swiper.velocity) {
             swiper.updateProgress(newPosition);
@@ -4123,7 +4177,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         if (callback) callback();
       }
 
-      if (!imageEl.complete || !checkForComplete) {
+      var isPicture = $(imageEl).parent('picture')[0];
+
+      if (!isPicture && (!imageEl.complete || !checkForComplete)) {
         if (src) {
           image = new win.Image();
           image.onload = onReady;
@@ -4965,6 +5021,123 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       }
     };
+    var Keyboard = {
+      handle: function handle(event) {
+        var swiper = this;
+        var rtl = swiper.rtlTranslate;
+        var e = event;
+        if (e.originalEvent) e = e.originalEvent; // jquery fix
+
+        var kc = e.keyCode || e.charCode; // Directions locks
+
+        if (!swiper.allowSlideNext && (swiper.isHorizontal() && kc === 39 || swiper.isVertical() && kc === 40 || kc === 34)) {
+          return false;
+        }
+
+        if (!swiper.allowSlidePrev && (swiper.isHorizontal() && kc === 37 || swiper.isVertical() && kc === 38 || kc === 33)) {
+          return false;
+        }
+
+        if (e.shiftKey || e.altKey || e.ctrlKey || e.metaKey) {
+          return undefined;
+        }
+
+        if (doc.activeElement && doc.activeElement.nodeName && (doc.activeElement.nodeName.toLowerCase() === 'input' || doc.activeElement.nodeName.toLowerCase() === 'textarea')) {
+          return undefined;
+        }
+
+        if (swiper.params.keyboard.onlyInViewport && (kc === 33 || kc === 34 || kc === 37 || kc === 39 || kc === 38 || kc === 40)) {
+          var inView = false; // Check that swiper should be inside of visible area of window
+
+          if (swiper.$el.parents(".".concat(swiper.params.slideClass)).length > 0 && swiper.$el.parents(".".concat(swiper.params.slideActiveClass)).length === 0) {
+            return undefined;
+          }
+
+          var windowWidth = win.innerWidth;
+          var windowHeight = win.innerHeight;
+          var swiperOffset = swiper.$el.offset();
+          if (rtl) swiperOffset.left -= swiper.$el[0].scrollLeft;
+          var swiperCoord = [[swiperOffset.left, swiperOffset.top], [swiperOffset.left + swiper.width, swiperOffset.top], [swiperOffset.left, swiperOffset.top + swiper.height], [swiperOffset.left + swiper.width, swiperOffset.top + swiper.height]];
+
+          for (var i = 0; i < swiperCoord.length; i += 1) {
+            var point = swiperCoord[i];
+
+            if (point[0] >= 0 && point[0] <= windowWidth && point[1] >= 0 && point[1] <= windowHeight) {
+              inView = true;
+            }
+          }
+
+          if (!inView) return undefined;
+        }
+
+        if (swiper.isHorizontal()) {
+          if (kc === 33 || kc === 34 || kc === 37 || kc === 39) {
+            if (e.preventDefault) e.preventDefault();else e.returnValue = false;
+          }
+
+          if ((kc === 34 || kc === 39) && !rtl || (kc === 33 || kc === 37) && rtl) swiper.slideNext();
+          if ((kc === 33 || kc === 37) && !rtl || (kc === 34 || kc === 39) && rtl) swiper.slidePrev();
+        } else {
+          if (kc === 33 || kc === 34 || kc === 38 || kc === 40) {
+            if (e.preventDefault) e.preventDefault();else e.returnValue = false;
+          }
+
+          if (kc === 34 || kc === 40) swiper.slideNext();
+          if (kc === 33 || kc === 38) swiper.slidePrev();
+        }
+
+        swiper.emit('keyPress', kc);
+        return undefined;
+      },
+      enable: function enable() {
+        var swiper = this;
+        if (swiper.keyboard.enabled) return;
+        $(doc).on('keydown', swiper.keyboard.handle);
+        swiper.keyboard.enabled = true;
+      },
+      disable: function disable() {
+        var swiper = this;
+        if (!swiper.keyboard.enabled) return;
+        $(doc).off('keydown', swiper.keyboard.handle);
+        swiper.keyboard.enabled = false;
+      }
+    };
+    var keyboard = {
+      name: 'keyboard',
+      params: {
+        keyboard: {
+          enabled: false,
+          onlyInViewport: true
+        }
+      },
+      create: function create() {
+        var swiper = this;
+        Utils.extend(swiper, {
+          keyboard: {
+            enabled: false,
+            enable: Keyboard.enable.bind(swiper),
+            disable: Keyboard.disable.bind(swiper),
+            handle: Keyboard.handle.bind(swiper)
+          }
+        });
+      },
+      on: {
+        init: function init() {
+          var swiper = this;
+
+          if (swiper.params.keyboard.enabled) {
+            swiper.keyboard.enable();
+          }
+        },
+        destroy: function destroy() {
+          var swiper = this;
+
+          if (swiper.keyboard.enabled) {
+            swiper.keyboard.disable();
+          }
+        }
+      }
+    };
 
     function isEventSupported() {
       var eventName = 'onwheel';
@@ -5138,7 +5311,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           //     Animate the slider.
 
           if (prevEvent) {
-            if (newEvent.direction !== prevEvent.direction || newEvent.delta > prevEvent.delta) {
+            if (newEvent.direction !== prevEvent.direction || newEvent.delta > prevEvent.delta || newEvent.time > prevEvent.time + 150) {
               swiper.mousewheel.animateSlider(newEvent);
             }
           } else {
@@ -6196,7 +6369,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             image = zoom.image;
         if (!gesture.$imageEl || gesture.$imageEl.length === 0) return;
         if (image.isTouched) return;
-        if (Device.android) e.preventDefault();
+        if (Device.android && e.cancelable) e.preventDefault();
         image.isTouched = true;
         image.touchesStart.x = e.type === 'touchstart' ? e.targetTouches[0].pageX : e.pageX;
         image.touchesStart.y = e.type === 'touchstart' ? e.targetTouches[0].pageY : e.pageY;
@@ -6249,7 +6422,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           }
         }
 
-        e.preventDefault();
+        if (e.cancelable) {
+          e.preventDefault();
+        }
+
         e.stopPropagation();
         image.isMoved = true;
         image.currentX = image.touchesCurrent.x - image.touchesStart.x + image.startX;
@@ -6847,8 +7023,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     Swiper.use(components);
-    Swiper.use([pagination, scrollbar, autoplay, zoom]);
+    Swiper.use([pagination, scrollbar, autoplay, keyboard, zoom]);
     /***/
   }
 }]);
-//# sourceMappingURL=swiper-bundle-f564f87c-js-es5.js.map
+//# sourceMappingURL=swiper-bundle-95afeea2-js-es5.js.map

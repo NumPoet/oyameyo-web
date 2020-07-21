@@ -33,15 +33,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! ./index-e23c3ffd.js */
-    "./node_modules/@ionic/core/dist/esm/index-e23c3ffd.js");
+    var _index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! ./index-29df6f59.js */
+    "./node_modules/@ionic/core/dist/esm/index-29df6f59.js");
     /* harmony import */
 
 
-    var _ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! ./ionic-global-fbc9a2ac.js */
-    "./node_modules/@ionic/core/dist/esm/ionic-global-fbc9a2ac.js");
+    var _ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./ionic-global-08f4fb8a.js */
+    "./node_modules/@ionic/core/dist/esm/ionic-global-08f4fb8a.js");
     /* harmony import */
 
 
@@ -51,15 +51,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _animation_6064ebf7_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-    /*! ./animation-6064ebf7.js */
-    "./node_modules/@ionic/core/dist/esm/animation-6064ebf7.js");
+    var _animation_a635a2fc_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ./animation-a635a2fc.js */
+    "./node_modules/@ionic/core/dist/esm/animation-a635a2fc.js");
     /* harmony import */
 
 
-    var _index_b60886e1_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-    /*! ./index-b60886e1.js */
-    "./node_modules/@ionic/core/dist/esm/index-b60886e1.js");
+    var _index_66edb21f_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ./index-66edb21f.js */
+    "./node_modules/@ionic/core/dist/esm/index-66edb21f.js");
     /* harmony import */
 
 
@@ -69,31 +69,37 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _index_6f647ec8_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-    /*! ./index-6f647ec8.js */
-    "./node_modules/@ionic/core/dist/esm/index-6f647ec8.js");
+    var _gesture_controller_89173521_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    /*! ./gesture-controller-89173521.js */
+    "./node_modules/@ionic/core/dist/esm/gesture-controller-89173521.js");
     /* harmony import */
 
 
-    var _hardware_back_button_7b6ede21_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    var _index_eea61379_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    /*! ./index-eea61379.js */
+    "./node_modules/@ionic/core/dist/esm/index-eea61379.js");
+    /* harmony import */
+
+
+    var _hardware_back_button_7b6ede21_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! ./hardware-back-button-7b6ede21.js */
     "./node_modules/@ionic/core/dist/esm/hardware-back-button-7b6ede21.js");
     /* harmony import */
 
 
-    var _overlays_e78a87c2_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
-    /*! ./overlays-e78a87c2.js */
-    "./node_modules/@ionic/core/dist/esm/overlays-e78a87c2.js");
+    var _overlays_7369bfcc_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    /*! ./overlays-7369bfcc.js */
+    "./node_modules/@ionic/core/dist/esm/overlays-7369bfcc.js");
     /* harmony import */
 
 
-    var _theme_c2dc54d9_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
-    /*! ./theme-c2dc54d9.js */
-    "./node_modules/@ionic/core/dist/esm/theme-c2dc54d9.js");
+    var _theme_3f0b0c04_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    /*! ./theme-3f0b0c04.js */
+    "./node_modules/@ionic/core/dist/esm/theme-3f0b0c04.js");
     /* harmony import */
 
 
-    var _framework_delegate_d1eb6504_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    var _framework_delegate_d1eb6504_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
     /*! ./framework-delegate-d1eb6504.js */
     "./node_modules/@ionic/core/dist/esm/framework-delegate-d1eb6504.js"); // Defaults for the card swipe animation
 
@@ -130,23 +136,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       };
 
       var onMove = function onMove(detail) {
-        var step = detail.deltaY / height;
-
-        if (step < 0) {
-          return;
-        }
-
+        var step = Object(_helpers_5c745fbd_js__WEBPACK_IMPORTED_MODULE_2__["c"])(0.0001, detail.deltaY / height, 0.9999);
         animation.progressStep(step);
       };
 
       var onEnd = function onEnd(detail) {
         var velocity = detail.velocityY;
-        var step = detail.deltaY / height;
-
-        if (step < 0) {
-          return;
-        }
-
+        var step = Object(_helpers_5c745fbd_js__WEBPACK_IMPORTED_MODULE_2__["c"])(0.0001, detail.deltaY / height, 0.9999);
         var threshold = (detail.deltaY + velocity * 1000) / height;
         var shouldComplete = threshold >= 0.5;
         var newStepValue = shouldComplete ? -0.001 : 0.001;
@@ -173,7 +169,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }
       };
 
-      var gesture = Object(_index_6f647ec8_js__WEBPACK_IMPORTED_MODULE_6__["createGesture"])({
+      var gesture = Object(_index_eea61379_js__WEBPACK_IMPORTED_MODULE_7__["createGesture"])({
         el: el,
         gestureName: 'modalSwipeToClose',
         gesturePriority: 40,
@@ -196,18 +192,18 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
     var iosEnterAnimation = function iosEnterAnimation(baseEl, presentingEl) {
-      var backdropAnimation = Object(_animation_6064ebf7_js__WEBPACK_IMPORTED_MODULE_3__["c"])().addElement(baseEl.querySelector('ion-backdrop')).fromTo('opacity', 0.01, 'var(--backdrop-opacity)').beforeStyles({
+      var backdropAnimation = Object(_animation_a635a2fc_js__WEBPACK_IMPORTED_MODULE_3__["c"])().addElement(baseEl.querySelector('ion-backdrop')).fromTo('opacity', 0.01, 'var(--backdrop-opacity)').beforeStyles({
         'pointer-events': 'none'
       }).afterClearStyles(['pointer-events']);
-      var wrapperAnimation = Object(_animation_6064ebf7_js__WEBPACK_IMPORTED_MODULE_3__["c"])().addElement(baseEl.querySelectorAll('.modal-wrapper, .modal-shadow')).beforeStyles({
+      var wrapperAnimation = Object(_animation_a635a2fc_js__WEBPACK_IMPORTED_MODULE_3__["c"])().addElement(baseEl.querySelectorAll('.modal-wrapper, .modal-shadow')).beforeStyles({
         'opacity': 1
       }).fromTo('transform', 'translateY(100vh)', 'translateY(0vh)');
-      var baseAnimation = Object(_animation_6064ebf7_js__WEBPACK_IMPORTED_MODULE_3__["c"])().addElement(baseEl).easing('cubic-bezier(0.32,0.72,0,1)').duration(500).addAnimation(wrapperAnimation);
+      var baseAnimation = Object(_animation_a635a2fc_js__WEBPACK_IMPORTED_MODULE_3__["c"])().addElement(baseEl).easing('cubic-bezier(0.32,0.72,0,1)').duration(500).addAnimation(wrapperAnimation);
 
       if (presentingEl) {
         var isMobile = window.innerWidth < 768;
         var hasCardModal = presentingEl.tagName === 'ION-MODAL' && presentingEl.presentingElement !== undefined;
-        var presentingAnimation = Object(_animation_6064ebf7_js__WEBPACK_IMPORTED_MODULE_3__["c"])().beforeStyles({
+        var presentingAnimation = Object(_animation_a635a2fc_js__WEBPACK_IMPORTED_MODULE_3__["c"])().beforeStyles({
           'transform': 'translateY(0)',
           'transform-origin': 'top center',
           'overflow': 'hidden'
@@ -261,7 +257,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               filter: 'contrast(0.85)',
               transform: _finalTransform
             }]);
-            var shadowAnimation = Object(_animation_6064ebf7_js__WEBPACK_IMPORTED_MODULE_3__["c"])().afterStyles({
+            var shadowAnimation = Object(_animation_a635a2fc_js__WEBPACK_IMPORTED_MODULE_3__["c"])().afterStyles({
               'transform': _finalTransform
             }).addElement(presentingEl.querySelector('.modal-shadow')).keyframes([{
               offset: 0,
@@ -288,16 +284,16 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var iosLeaveAnimation = function iosLeaveAnimation(baseEl, presentingEl) {
       var duration = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 500;
-      var backdropAnimation = Object(_animation_6064ebf7_js__WEBPACK_IMPORTED_MODULE_3__["c"])().addElement(baseEl.querySelector('ion-backdrop')).fromTo('opacity', 'var(--backdrop-opacity)', 0.0);
-      var wrapperAnimation = Object(_animation_6064ebf7_js__WEBPACK_IMPORTED_MODULE_3__["c"])().addElement(baseEl.querySelectorAll('.modal-wrapper, .modal-shadow')).beforeStyles({
+      var backdropAnimation = Object(_animation_a635a2fc_js__WEBPACK_IMPORTED_MODULE_3__["c"])().addElement(baseEl.querySelector('ion-backdrop')).fromTo('opacity', 'var(--backdrop-opacity)', 0.0);
+      var wrapperAnimation = Object(_animation_a635a2fc_js__WEBPACK_IMPORTED_MODULE_3__["c"])().addElement(baseEl.querySelectorAll('.modal-wrapper, .modal-shadow')).beforeStyles({
         'opacity': 1
       }).fromTo('transform', 'translateY(0vh)', 'translateY(100vh)');
-      var baseAnimation = Object(_animation_6064ebf7_js__WEBPACK_IMPORTED_MODULE_3__["c"])().addElement(baseEl).easing('cubic-bezier(0.32,0.72,0,1)').duration(duration).addAnimation(wrapperAnimation);
+      var baseAnimation = Object(_animation_a635a2fc_js__WEBPACK_IMPORTED_MODULE_3__["c"])().addElement(baseEl).easing('cubic-bezier(0.32,0.72,0,1)').duration(duration).addAnimation(wrapperAnimation);
 
       if (presentingEl) {
         var isMobile = window.innerWidth < 768;
         var hasCardModal = presentingEl.tagName === 'ION-MODAL' && presentingEl.presentingElement !== undefined;
-        var presentingAnimation = Object(_animation_6064ebf7_js__WEBPACK_IMPORTED_MODULE_3__["c"])().beforeClearStyles(['transform']).afterClearStyles(['transform']).onFinish(function (currentStep) {
+        var presentingAnimation = Object(_animation_a635a2fc_js__WEBPACK_IMPORTED_MODULE_3__["c"])().beforeClearStyles(['transform']).afterClearStyles(['transform']).onFinish(function (currentStep) {
           // only reset background color if this is the last card-style modal
           if (currentStep !== 1) {
             return;
@@ -352,7 +348,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               filter: 'contrast(1)',
               transform: 'translateY(0) scale(1)'
             }]);
-            var shadowAnimation = Object(_animation_6064ebf7_js__WEBPACK_IMPORTED_MODULE_3__["c"])().addElement(presentingEl.querySelector('.modal-shadow')).afterStyles({
+            var shadowAnimation = Object(_animation_a635a2fc_js__WEBPACK_IMPORTED_MODULE_3__["c"])().addElement(presentingEl.querySelector('.modal-shadow')).afterStyles({
               'transform': 'translateY(0) scale(1)'
             }).keyframes([{
               offset: 0,
@@ -378,9 +374,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
     var mdEnterAnimation = function mdEnterAnimation(baseEl) {
-      var baseAnimation = Object(_animation_6064ebf7_js__WEBPACK_IMPORTED_MODULE_3__["c"])();
-      var backdropAnimation = Object(_animation_6064ebf7_js__WEBPACK_IMPORTED_MODULE_3__["c"])();
-      var wrapperAnimation = Object(_animation_6064ebf7_js__WEBPACK_IMPORTED_MODULE_3__["c"])();
+      var baseAnimation = Object(_animation_a635a2fc_js__WEBPACK_IMPORTED_MODULE_3__["c"])();
+      var backdropAnimation = Object(_animation_a635a2fc_js__WEBPACK_IMPORTED_MODULE_3__["c"])();
+      var wrapperAnimation = Object(_animation_a635a2fc_js__WEBPACK_IMPORTED_MODULE_3__["c"])();
       backdropAnimation.addElement(baseEl.querySelector('ion-backdrop')).fromTo('opacity', 0.01, 'var(--backdrop-opacity)').beforeStyles({
         'pointer-events': 'none'
       }).afterClearStyles(['pointer-events']);
@@ -401,9 +397,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
     var mdLeaveAnimation = function mdLeaveAnimation(baseEl) {
-      var baseAnimation = Object(_animation_6064ebf7_js__WEBPACK_IMPORTED_MODULE_3__["c"])();
-      var backdropAnimation = Object(_animation_6064ebf7_js__WEBPACK_IMPORTED_MODULE_3__["c"])();
-      var wrapperAnimation = Object(_animation_6064ebf7_js__WEBPACK_IMPORTED_MODULE_3__["c"])();
+      var baseAnimation = Object(_animation_a635a2fc_js__WEBPACK_IMPORTED_MODULE_3__["c"])();
+      var backdropAnimation = Object(_animation_a635a2fc_js__WEBPACK_IMPORTED_MODULE_3__["c"])();
+      var wrapperAnimation = Object(_animation_a635a2fc_js__WEBPACK_IMPORTED_MODULE_3__["c"])();
       var wrapperEl = baseEl.querySelector('.modal-wrapper');
       backdropAnimation.addElement(baseEl.querySelector('ion-backdrop')).fromTo('opacity', 'var(--backdrop-opacity)', 0.0);
       wrapperAnimation.addElement(wrapperEl).keyframes([{
@@ -418,8 +414,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       return baseAnimation.addElement(baseEl).easing('cubic-bezier(0.47,0,0.745,0.715)').duration(200).addAnimation([backdropAnimation, wrapperAnimation]);
     };
 
-    var modalIosCss = ".sc-ion-modal-ios-h{--width:100%;--min-width:auto;--max-width:auto;--height:100%;--min-height:auto;--max-height:auto;--overflow:hidden;--border-radius:0;--border-width:0;--border-style:none;--border-color:transparent;--background:var(--ion-background-color, #fff);--box-shadow:none;--backdrop-opacity:0;left:0;right:0;top:0;bottom:0;display:-ms-flexbox;display:flex;position:absolute;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;outline:none;contain:strict}.overlay-hidden.sc-ion-modal-ios-h{display:none}.modal-wrapper.sc-ion-modal-ios,.modal-shadow.sc-ion-modal-ios{border-radius:var(--border-radius);width:var(--width);min-width:var(--min-width);max-width:var(--max-width);height:var(--height);min-height:var(--min-height);max-height:var(--max-height);border-width:var(--border-width);border-style:var(--border-style);border-color:var(--border-color);background:var(--background);-webkit-box-shadow:var(--box-shadow);box-shadow:var(--box-shadow);overflow:var(--overflow);z-index:10}.modal-shadow.sc-ion-modal-ios{position:absolute;background:transparent}@media only screen and (min-width: 768px) and (min-height: 600px){.sc-ion-modal-ios-h{--width:600px;--height:500px;--ion-safe-area-top:0px;--ion-safe-area-bottom:0px;--ion-safe-area-right:0px;--ion-safe-area-left:0px}}@media only screen and (min-width: 768px) and (min-height: 768px){.sc-ion-modal-ios-h{--width:600px;--height:600px}}.sc-ion-modal-ios-h:first-of-type{--backdrop-opacity:var(--ion-backdrop-opacity, 0.4)}@media only screen and (min-width: 768px) and (min-height: 600px){.sc-ion-modal-ios-h{--border-radius:10px}}.modal-wrapper.sc-ion-modal-ios{-webkit-transform:translate3d(0,  100%,  0);transform:translate3d(0,  100%,  0)}@media screen and (max-width: 767px){@supports (width: max(0px, 1px)){.modal-card.sc-ion-modal-ios-h .modal-wrapper.sc-ion-modal-ios{height:calc(100% - max(30px, var(--ion-safe-area-top)) - 10px)}}@supports not (width: max(0px, 1px)){.modal-card.sc-ion-modal-ios-h .modal-wrapper.sc-ion-modal-ios{height:calc(100% - 40px)}}.modal-card.sc-ion-modal-ios-h .modal-wrapper.sc-ion-modal-ios{border-top-left-radius:10px;border-top-right-radius:10px;border-bottom-right-radius:0;border-bottom-left-radius:0}[dir=rtl].sc-ion-modal-ios-h -no-combinator.modal-card.sc-ion-modal-ios-h .modal-wrapper.sc-ion-modal-ios,[dir=rtl] .sc-ion-modal-ios-h -no-combinator.modal-card.sc-ion-modal-ios-h .modal-wrapper.sc-ion-modal-ios,[dir=rtl].modal-card.sc-ion-modal-ios-h .modal-wrapper.sc-ion-modal-ios,[dir=rtl] .modal-card.sc-ion-modal-ios-h .modal-wrapper.sc-ion-modal-ios{border-top-left-radius:10px;border-top-right-radius:10px;border-bottom-right-radius:0;border-bottom-left-radius:0}.modal-card.sc-ion-modal-ios-h{--backdrop-opacity:0;--width:100%;-ms-flex-align:end;align-items:flex-end}.modal-card.sc-ion-modal-ios-h .modal-shadow.sc-ion-modal-ios{display:none}.modal-card.sc-ion-modal-ios-h ion-backdrop.sc-ion-modal-ios{pointer-events:none}}@media screen and (min-width: 768px){.modal-card.sc-ion-modal-ios-h{--width:calc(100% - 120px);--height:calc(100% - (120px + var(--ion-safe-area-top) + var(--ion-safe-area-bottom)));--max-width:720px;--max-height:1000px}.modal-card.sc-ion-modal-ios-h{--backdrop-opacity:0;-webkit-transition:all 0.5s ease-in-out;transition:all 0.5s ease-in-out}.modal-card.sc-ion-modal-ios-h:first-of-type{--backdrop-opacity:0.18}.modal-card.sc-ion-modal-ios-h .modal-shadow.sc-ion-modal-ios{-webkit-box-shadow:0px 0px 30px 10px rgba(0, 0, 0, 0.1);box-shadow:0px 0px 30px 10px rgba(0, 0, 0, 0.1)}}";
+    var modalIosCss = ".sc-ion-modal-ios-h{--width:100%;--min-width:auto;--max-width:auto;--height:100%;--min-height:auto;--max-height:auto;--overflow:hidden;--border-radius:0;--border-width:0;--border-style:none;--border-color:transparent;--background:var(--ion-background-color, #fff);--box-shadow:none;--backdrop-opacity:0;left:0;right:0;top:0;bottom:0;display:-ms-flexbox;display:flex;position:absolute;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;outline:none;contain:strict}.overlay-hidden.sc-ion-modal-ios-h{display:none}.modal-wrapper.sc-ion-modal-ios,.modal-shadow.sc-ion-modal-ios{border-radius:var(--border-radius);width:var(--width);min-width:var(--min-width);max-width:var(--max-width);height:var(--height);min-height:var(--min-height);max-height:var(--max-height);border-width:var(--border-width);border-style:var(--border-style);border-color:var(--border-color);background:var(--background);-webkit-box-shadow:var(--box-shadow);box-shadow:var(--box-shadow);overflow:var(--overflow);z-index:10}.modal-shadow.sc-ion-modal-ios{position:absolute;background:transparent}@media only screen and (min-width: 768px) and (min-height: 600px){.sc-ion-modal-ios-h{--width:600px;--height:500px;--ion-safe-area-top:0px;--ion-safe-area-bottom:0px;--ion-safe-area-right:0px;--ion-safe-area-left:0px}}@media only screen and (min-width: 768px) and (min-height: 768px){.sc-ion-modal-ios-h{--width:600px;--height:600px}}.sc-ion-modal-ios-h:first-of-type{--backdrop-opacity:var(--ion-backdrop-opacity, 0.4)}@media only screen and (min-width: 768px) and (min-height: 600px){.sc-ion-modal-ios-h{--border-radius:10px}}.modal-wrapper.sc-ion-modal-ios{-webkit-transform:translate3d(0,  100%,  0);transform:translate3d(0,  100%,  0)}@media screen and (max-width: 767px){@supports (width: max(0px, 1px)){.modal-card.sc-ion-modal-ios-h{--height:calc(100% - max(30px, var(--ion-safe-area-top)) - 10px)}}@supports not (width: max(0px, 1px)){.modal-card.sc-ion-modal-ios-h{--height:calc(100% - 40px)}}.modal-card.sc-ion-modal-ios-h .modal-wrapper.sc-ion-modal-ios{border-top-left-radius:10px;border-top-right-radius:10px;border-bottom-right-radius:0;border-bottom-left-radius:0}[dir=rtl].sc-ion-modal-ios-h -no-combinator.modal-card.sc-ion-modal-ios-h .modal-wrapper.sc-ion-modal-ios,[dir=rtl] .sc-ion-modal-ios-h -no-combinator.modal-card.sc-ion-modal-ios-h .modal-wrapper.sc-ion-modal-ios,[dir=rtl].modal-card.sc-ion-modal-ios-h .modal-wrapper.sc-ion-modal-ios,[dir=rtl] .modal-card.sc-ion-modal-ios-h .modal-wrapper.sc-ion-modal-ios{border-top-left-radius:10px;border-top-right-radius:10px;border-bottom-right-radius:0;border-bottom-left-radius:0}.modal-card.sc-ion-modal-ios-h{--backdrop-opacity:0;--width:100%;-ms-flex-align:end;align-items:flex-end}.modal-card.sc-ion-modal-ios-h .modal-shadow.sc-ion-modal-ios{display:none}.modal-card.sc-ion-modal-ios-h ion-backdrop.sc-ion-modal-ios{pointer-events:none}}@media screen and (min-width: 768px){.modal-card.sc-ion-modal-ios-h{--width:calc(100% - 120px);--height:calc(100% - (120px + var(--ion-safe-area-top) + var(--ion-safe-area-bottom)));--max-width:720px;--max-height:1000px}.modal-card.sc-ion-modal-ios-h{--backdrop-opacity:0;-webkit-transition:all 0.5s ease-in-out;transition:all 0.5s ease-in-out}.modal-card.sc-ion-modal-ios-h:first-of-type{--backdrop-opacity:0.18}.modal-card.sc-ion-modal-ios-h .modal-shadow.sc-ion-modal-ios{-webkit-box-shadow:0px 0px 30px 10px rgba(0, 0, 0, 0.1);box-shadow:0px 0px 30px 10px rgba(0, 0, 0, 0.1)}}";
     var modalMdCss = ".sc-ion-modal-md-h{--width:100%;--min-width:auto;--max-width:auto;--height:100%;--min-height:auto;--max-height:auto;--overflow:hidden;--border-radius:0;--border-width:0;--border-style:none;--border-color:transparent;--background:var(--ion-background-color, #fff);--box-shadow:none;--backdrop-opacity:0;left:0;right:0;top:0;bottom:0;display:-ms-flexbox;display:flex;position:absolute;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;outline:none;contain:strict}.overlay-hidden.sc-ion-modal-md-h{display:none}.modal-wrapper.sc-ion-modal-md,.modal-shadow.sc-ion-modal-md{border-radius:var(--border-radius);width:var(--width);min-width:var(--min-width);max-width:var(--max-width);height:var(--height);min-height:var(--min-height);max-height:var(--max-height);border-width:var(--border-width);border-style:var(--border-style);border-color:var(--border-color);background:var(--background);-webkit-box-shadow:var(--box-shadow);box-shadow:var(--box-shadow);overflow:var(--overflow);z-index:10}.modal-shadow.sc-ion-modal-md{position:absolute;background:transparent}@media only screen and (min-width: 768px) and (min-height: 600px){.sc-ion-modal-md-h{--width:600px;--height:500px;--ion-safe-area-top:0px;--ion-safe-area-bottom:0px;--ion-safe-area-right:0px;--ion-safe-area-left:0px}}@media only screen and (min-width: 768px) and (min-height: 768px){.sc-ion-modal-md-h{--width:600px;--height:600px}}.sc-ion-modal-md-h:first-of-type{--backdrop-opacity:var(--ion-backdrop-opacity, 0.32)}@media only screen and (min-width: 768px) and (min-height: 600px){.sc-ion-modal-md-h{--border-radius:2px}.sc-ion-modal-md-h:first-of-type{--box-shadow:0 28px 48px rgba(0, 0, 0, 0.4)}}.modal-wrapper.sc-ion-modal-md{-webkit-transform:translate3d(0,  40px,  0);transform:translate3d(0,  40px,  0);opacity:0.01}";
+    /**
+     * @virtualProp {"ios" | "md"} mode - The mode determines which platform styles to use.
+     */
 
     var Modal = /*#__PURE__*/function () {
       function Modal(hostRef) {
@@ -427,7 +426,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _classCallCheck(this, Modal);
 
-        Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef); // Whether or not modal is being dismissed via gesture
+        Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef); // Whether or not modal is being dismissed via gesture
 
         this.gestureAnimationDismissing = false;
         this.presented = false;
@@ -458,7 +457,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.swipeToClose = false;
 
         this.onBackdropTap = function () {
-          _this.dismiss(undefined, _overlays_e78a87c2_js__WEBPACK_IMPORTED_MODULE_8__["B"]);
+          _this.dismiss(undefined, _overlays_7369bfcc_js__WEBPACK_IMPORTED_MODULE_9__["B"]);
         };
 
         this.onDismiss = function (ev) {
@@ -482,11 +481,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }
         };
 
-        Object(_overlays_e78a87c2_js__WEBPACK_IMPORTED_MODULE_8__["d"])(this.el);
-        this.didPresent = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionModalDidPresent", 7);
-        this.willPresent = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionModalWillPresent", 7);
-        this.willDismiss = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionModalWillDismiss", 7);
-        this.didDismiss = Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "ionModalDidDismiss", 7);
+        Object(_overlays_7369bfcc_js__WEBPACK_IMPORTED_MODULE_9__["d"])(this.el);
+        this.didPresent = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionModalDidPresent", 7);
+        this.willPresent = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionModalWillPresent", 7);
+        this.willDismiss = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionModalWillDismiss", 7);
+        this.didDismiss = Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this, "ionModalDidDismiss", 7);
       }
 
       _createClass(Modal, [{
@@ -535,19 +534,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                       modal: this.el
                     });
                     _context.next = 8;
-                    return Object(_framework_delegate_d1eb6504_js__WEBPACK_IMPORTED_MODULE_10__["a"])(this.delegate, container, this.component, ['ion-page'], componentProps);
+                    return Object(_framework_delegate_d1eb6504_js__WEBPACK_IMPORTED_MODULE_11__["a"])(this.delegate, container, this.component, ['ion-page'], componentProps);
 
                   case 8:
                     this.usersElement = _context.sent;
                     _context.next = 11;
-                    return Object(_index_b60886e1_js__WEBPACK_IMPORTED_MODULE_4__["e"])(this.usersElement);
+                    return Object(_index_66edb21f_js__WEBPACK_IMPORTED_MODULE_4__["e"])(this.usersElement);
 
                   case 11:
-                    Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["w"])(function () {
+                    Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["w"])(function () {
                       return _this2.el.classList.add('show-modal');
                     });
                     _context.next = 14;
-                    return Object(_overlays_e78a87c2_js__WEBPACK_IMPORTED_MODULE_8__["e"])(this, 'modalEnter', iosEnterAnimation, mdEnterAnimation, this.presentingElement);
+                    return Object(_overlays_7369bfcc_js__WEBPACK_IMPORTED_MODULE_9__["e"])(this, 'modalEnter', iosEnterAnimation, mdEnterAnimation, this.presentingElement);
 
                   case 14:
                     if (this.swipeToClose) {
@@ -573,14 +572,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function initSwipeToClose() {
           var _this3 = this;
 
-          if (Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this) !== 'ios') {
+          if (Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this) !== 'ios') {
             return;
           } // All of the elements needed for the swipe gesture
           // should be in the DOM and referenced by now, except
           // for the presenting el
 
 
-          var animationBuilder = this.leaveAnimation || _ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["c"].get('modalLeave', iosLeaveAnimation);
+          var animationBuilder = this.leaveAnimation || _ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["c"].get('modalLeave', iosLeaveAnimation);
 
           var ani = this.animation = animationBuilder(this.el, this.presentingElement);
           this.gesture = createSwipeToCloseGesture(this.el, ani, function () {
@@ -641,9 +640,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                     return _context3.abrupt("return", false);
 
                   case 2:
-                    enteringAnimation = _overlays_e78a87c2_js__WEBPACK_IMPORTED_MODULE_8__["h"].get(this) || [];
+                    enteringAnimation = _overlays_7369bfcc_js__WEBPACK_IMPORTED_MODULE_9__["h"].get(this) || [];
                     _context3.next = 5;
-                    return Object(_overlays_e78a87c2_js__WEBPACK_IMPORTED_MODULE_8__["f"])(this, data, role, 'modalLeave', iosLeaveAnimation, mdLeaveAnimation, this.presentingElement);
+                    return Object(_overlays_7369bfcc_js__WEBPACK_IMPORTED_MODULE_9__["f"])(this, data, role, 'modalLeave', iosLeaveAnimation, mdLeaveAnimation, this.presentingElement);
 
                   case 5:
                     dismissed = _context3.sent;
@@ -654,7 +653,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
                     }
 
                     _context3.next = 9;
-                    return Object(_framework_delegate_d1eb6504_js__WEBPACK_IMPORTED_MODULE_10__["d"])(this.delegate, this.usersElement);
+                    return Object(_framework_delegate_d1eb6504_js__WEBPACK_IMPORTED_MODULE_11__["d"])(this.delegate, this.usersElement);
 
                   case 9:
                     if (this.animation) {
@@ -690,7 +689,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "onDidDismiss",
         value: function onDidDismiss() {
-          return Object(_overlays_e78a87c2_js__WEBPACK_IMPORTED_MODULE_8__["g"])(this.el, 'ionModalDidDismiss');
+          return Object(_overlays_7369bfcc_js__WEBPACK_IMPORTED_MODULE_9__["g"])(this.el, 'ionModalDidDismiss');
         }
         /**
          * Returns a promise that resolves when the modal will dismiss.
@@ -699,19 +698,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "onWillDismiss",
         value: function onWillDismiss() {
-          return Object(_overlays_e78a87c2_js__WEBPACK_IMPORTED_MODULE_8__["g"])(this.el, 'ionModalWillDismiss');
+          return Object(_overlays_7369bfcc_js__WEBPACK_IMPORTED_MODULE_9__["g"])(this.el, 'ionModalWillDismiss');
         }
       }, {
         key: "render",
         value: function render() {
           var _Object$assign;
 
-          var mode = Object(_ionic_global_fbc9a2ac_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
+          var mode = Object(_ionic_global_08f4fb8a_js__WEBPACK_IMPORTED_MODULE_1__["b"])(this);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["H"], {
             "no-router": true,
             "aria-modal": "true",
             tabindex: "-1",
-            "class": Object.assign((_Object$assign = {}, _defineProperty(_Object$assign, mode, true), _defineProperty(_Object$assign, "modal-card", this.presentingElement !== undefined && mode === 'ios'), _Object$assign), Object(_theme_c2dc54d9_js__WEBPACK_IMPORTED_MODULE_9__["g"])(this.cssClass)),
+            "class": Object.assign((_Object$assign = {}, _defineProperty(_Object$assign, mode, true), _defineProperty(_Object$assign, "modal-card", this.presentingElement !== undefined && mode === 'ios'), _Object$assign), Object(_theme_3f0b0c04_js__WEBPACK_IMPORTED_MODULE_10__["g"])(this.cssClass)),
             style: {
               zIndex: "".concat(20000 + this.overlayIndex)
             },
@@ -721,12 +720,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             onIonModalWillPresent: this.onLifecycle,
             onIonModalWillDismiss: this.onLifecycle,
             onIonModalDidDismiss: this.onLifecycle
-          }, Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-backdrop", {
+          }, Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("ion-backdrop", {
             visible: this.showBackdrop,
             tappable: this.backdropDismiss
-          }), mode === 'ios' && Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
+          }), mode === 'ios' && Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
             "class": "modal-shadow"
-          }), Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
+          }), Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", {
             role: "dialog",
             "class": "modal-wrapper"
           }));
@@ -734,7 +733,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "el",
         get: function get() {
-          return Object(_index_e23c3ffd_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
+          return Object(_index_29df6f59_js__WEBPACK_IMPORTED_MODULE_0__["e"])(this);
         }
       }], [{
         key: "watchers",
