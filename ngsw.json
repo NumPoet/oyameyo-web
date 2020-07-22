@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1595377657540,
+  "timestamp": 1595396937711,
   "index": "/oyameyo-web/index.html",
   "assetGroups": [
     {
@@ -8,8 +8,8 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/oyameyo-web/16-es2015.9b96a633c621d9c90c96.js",
-        "/oyameyo-web/16-es5.9b96a633c621d9c90c96.js",
+        "/oyameyo-web/16-es2015.5a9b1fcfc58314a1ad91.js",
+        "/oyameyo-web/16-es5.5a9b1fcfc58314a1ad91.js",
         "/oyameyo-web/17-es2015.39a52a188d08716024d9.js",
         "/oyameyo-web/17-es5.39a52a188d08716024d9.js",
         "/oyameyo-web/18-es2015.dcd1e211f56f141689c8.js",
@@ -187,8 +187,8 @@
         "/oyameyo-web/common-es2015.787fed6c88942b571d48.js",
         "/oyameyo-web/common-es5.787fed6c88942b571d48.js",
         "/oyameyo-web/index.html",
-        "/oyameyo-web/main-es2015.275ee1014bdbe4b4b4fb.js",
-        "/oyameyo-web/main-es5.275ee1014bdbe4b4b4fb.js",
+        "/oyameyo-web/main-es2015.fb45d1d5ce82ee1be3be.js",
+        "/oyameyo-web/main-es5.fb45d1d5ce82ee1be3be.js",
         "/oyameyo-web/manifest.webmanifest",
         "/oyameyo-web/polyfills-core-js-es2015.ce47e0beaa8754f121dc.js",
         "/oyameyo-web/polyfills-core-js-es5.ce47e0beaa8754f121dc.js",
@@ -198,9 +198,9 @@
         "/oyameyo-web/polyfills-dom-es5.4bb9d991e2ad33f11c63.js",
         "/oyameyo-web/polyfills-es2015.eba6c667c0f82f5051d0.js",
         "/oyameyo-web/polyfills-es5.8e93e783cffb0c0e0afc.js",
-        "/oyameyo-web/runtime-es2015.fa6c27c014db2ab53432.js",
-        "/oyameyo-web/runtime-es5.fa6c27c014db2ab53432.js",
-        "/oyameyo-web/styles.88286788b71d82455276.css"
+        "/oyameyo-web/runtime-es2015.314d9bcd55fd3632e697.js",
+        "/oyameyo-web/runtime-es5.314d9bcd55fd3632e697.js",
+        "/oyameyo-web/styles.0a514f9d893fb7751e40.css"
       ],
       "patterns": []
     },
@@ -209,6 +209,7 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
+        "/oyameyo-web/assets/banner2.jpg",
         "/oyameyo-web/assets/facebook.png",
         "/oyameyo-web/assets/icon/favicon.png",
         "/oyameyo-web/assets/icon/icon-512.png",
@@ -221,6 +222,7 @@
         "/oyameyo-web/assets/icons/icon-72x72.png",
         "/oyameyo-web/assets/icons/icon-96x96.png",
         "/oyameyo-web/assets/icons/manifest.json",
+        "/oyameyo-web/assets/img1.jpg",
         "/oyameyo-web/assets/instagram.png",
         "/oyameyo-web/assets/man-worker.png",
         "/oyameyo-web/assets/man.png",
@@ -235,8 +237,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/oyameyo-web/16-es2015.9b96a633c621d9c90c96.js": "fa0fe839ada0f5efa6585cb0cbd48d5d451e76ea",
-    "/oyameyo-web/16-es5.9b96a633c621d9c90c96.js": "66c81f5a406d5bb095c29329213741a35e41226f",
+    "/oyameyo-web/16-es2015.5a9b1fcfc58314a1ad91.js": "a26a4636f9d32bc9cf0a84ea52c8dbfb30ed53c5",
+    "/oyameyo-web/16-es5.5a9b1fcfc58314a1ad91.js": "d657931ec46f8ef4262903f18ec21d9141ed1dc4",
     "/oyameyo-web/17-es2015.39a52a188d08716024d9.js": "9cbacfd83d458adcd67ef18c3d02416c1c6b6f9c",
     "/oyameyo-web/17-es5.39a52a188d08716024d9.js": "36503257fb1789f95670a2bc1f809155afc84bb4",
     "/oyameyo-web/18-es2015.dcd1e211f56f141689c8.js": "ed2933dcc48ef486c2c26167d275351ede5de9e2",
@@ -411,6 +413,7 @@
     "/oyameyo-web/95-es5.b2823cd412b4a71418d9.js": "01d4aca7427b0eaff81d913682f2a83a2e22d87a",
     "/oyameyo-web/96-es2015.a7d33dfa90200df98952.js": "ae5433036b0494be16d650464be3e5d2fd1ea3eb",
     "/oyameyo-web/96-es5.a7d33dfa90200df98952.js": "b8022f3a23e38855adf531b31112ba42043671e3",
+    "/oyameyo-web/assets/banner2.jpg": "ae0df3558a97bd27eccb1c295a348afd9f248171",
     "/oyameyo-web/assets/facebook.png": "ec1508899dd9a8d6b3e2766db228c40e850c6066",
     "/oyameyo-web/assets/icon/favicon.png": "c28881dcf00cd98a3babc119035bb6cff1828d24",
     "/oyameyo-web/assets/icon/icon-512.png": "2bcee0c3b718c86b2ecfeaf183585c63943ef953",
@@ -423,6 +426,7 @@
     "/oyameyo-web/assets/icons/icon-72x72.png": "66b7459a34ddc946dff922f8c5387e859fd5f2d0",
     "/oyameyo-web/assets/icons/icon-96x96.png": "433b74f25163b26bf80ea2cfdf09d22cb75180f2",
     "/oyameyo-web/assets/icons/manifest.json": "0bd2c8b82ca658fdbfd1ce6134325e4227b6fc84",
+    "/oyameyo-web/assets/img1.jpg": "658ee4b217239b0037f54c0773c0d306305e1f2a",
     "/oyameyo-web/assets/instagram.png": "13215c02181e46552e3a7090262111033aee8f09",
     "/oyameyo-web/assets/man-worker.png": "162a807083c7916de1603956bfeeb08c9d4f585b",
     "/oyameyo-web/assets/man.png": "879a663749781d809fd6f15b4411c6694aba41b4",
@@ -433,9 +437,9 @@
     "/oyameyo-web/assets/twitter.png": "1fae8f7e0e8932a83725e5105881470935c7af37",
     "/oyameyo-web/common-es2015.787fed6c88942b571d48.js": "2634c6f1e6055c8b0aa4f38c54faea50c26a352c",
     "/oyameyo-web/common-es5.787fed6c88942b571d48.js": "4f16208880f1e36208abbe684c332346fa3d5599",
-    "/oyameyo-web/index.html": "2b1d577b384ac6ab351f83b701de2e32050205b5",
-    "/oyameyo-web/main-es2015.275ee1014bdbe4b4b4fb.js": "80c154acf903346b17577e29c6a1861821a31ba9",
-    "/oyameyo-web/main-es5.275ee1014bdbe4b4b4fb.js": "aac2afa1408c24f4c3d6cec19a0fad871ecf3412",
+    "/oyameyo-web/index.html": "272dbac19f431ccc530be560952bcfed134f2085",
+    "/oyameyo-web/main-es2015.fb45d1d5ce82ee1be3be.js": "20340cde537782f2a30a2b8ab77905b4e08eef77",
+    "/oyameyo-web/main-es5.fb45d1d5ce82ee1be3be.js": "570a6affcfef4dcd066825dadc7a90aba7a2b997",
     "/oyameyo-web/manifest.webmanifest": "50d28892a23cd592b099cde8bf0f08f9388c8c03",
     "/oyameyo-web/polyfills-core-js-es2015.ce47e0beaa8754f121dc.js": "fe18301772fedd9faed9155d0253b25bad547329",
     "/oyameyo-web/polyfills-core-js-es5.ce47e0beaa8754f121dc.js": "2238555b018c094b6a5445b2ea64d26959264b3a",
@@ -445,9 +449,9 @@
     "/oyameyo-web/polyfills-dom-es5.4bb9d991e2ad33f11c63.js": "4d8a8072fa2be30bd1e0af3b5bf9fd74b85bc55d",
     "/oyameyo-web/polyfills-es2015.eba6c667c0f82f5051d0.js": "06890b8ad7d099069b6e73dc73f64cb685f7b1fd",
     "/oyameyo-web/polyfills-es5.8e93e783cffb0c0e0afc.js": "45b97c9c475b9b2178a4ae9fa05dc7e19fee8e5c",
-    "/oyameyo-web/runtime-es2015.fa6c27c014db2ab53432.js": "5451f13e073c57fd780664f20db927d3321dd059",
-    "/oyameyo-web/runtime-es5.fa6c27c014db2ab53432.js": "d9d7c6c3711daca4f36ce829c1e826e8a039fc10",
-    "/oyameyo-web/styles.88286788b71d82455276.css": "708c8f91be323a3ebb2df04eb9f66a74a98f8481"
+    "/oyameyo-web/runtime-es2015.314d9bcd55fd3632e697.js": "e229221710685ab41416578219b6f0e305bcb800",
+    "/oyameyo-web/runtime-es5.314d9bcd55fd3632e697.js": "4cb4d34f53081336358f0a85894c7f4b109d8d6b",
+    "/oyameyo-web/styles.0a514f9d893fb7751e40.css": "7b9dff414ed16ac945f4f6ed52ceac9658ec506c"
   },
   "navigationUrls": [
     {
